@@ -1,0 +1,146 @@
+.clear{
+  clear: both;
+}
+html{
+  /*background-image: url(../img/未命名-1.png);
+  background-repeat:no-repeat;
+  background-size:100%;*/
+}
+body{
+  margin: 0;
+  /*opacity: 0.5;*/
+  background-color: rgb(169,191,225);
+}
+header{
+  margin: 0;
+  width: 100vw;
+  height: 60vw;
+}
+.img_look{
+  width: 100vw;
+  margin: 0;
+}
+.position{
+  position: absolute;
+  width: 100vw;
+}
+ul{
+	margin:0;
+	padding: 0;
+  float: right;
+  width: 14vw;
+}
+li{
+	list-style: none;
+  float: left;
+  margin-top: 2vw;
+}
+.img_chat{
+  width: 4.5vw;
+  margin-right: 2vw;
+  margin-top: 1vw;
+}
+.img_home{
+  width: 4.5vw;
+  margin-right: 2vw;
+}
+.img_down{
+  width: 27vw;
+  position: fixed;
+  margin: 82vh 0 0 38.5vw;
+}
+.img_arrow{
+  position: fixed;
+  width: 5vw;
+  margin: 80vh 0 0 60.5vw;
+}
+.img_time{
+  float: left;
+  margin: 9.5vw 0 0 3.7vw;
+  width: 54.8vw;
+}
+.p_time{
+  float: right;
+  margin: 9vw 4vw 0 0;
+  font-family:Microsoft JhengHei;
+  width: 33.5vw;
+}
+.p_time_up{
+  font-size: 2.34vw;
+}
+.p_time_p{
+  margin:0;
+}
+.p_time_top{
+  margin-top: 1.2vw;
+}
+.p_time_r{
+  float: right;
+}
+ .p_time_down{
+   margin: 10.5vw 0 0 6vw;
+   font-size: 1.8vw;
+ }
+.p_time_d{
+  margin: 1vw 0 0 0;
+}
+.img_where{
+  margin: 12.5vw 3.7vw 0 0;
+  width: 54.8vw;
+  height: 30.3vw;
+  float: right;
+}
+.p_where{
+  float: left;
+  margin: 19vw 0 0 3.5vw;
+  font-size: 2.34vw;
+  font-family:Microsoft JhengHei;
+}
+.p_where_p{
+  margin: 1vw 0 0 0;
+}
+.history{
+  margin-bottom: 20vw;
+}
+.history_title{
+  padding: 16.2vw 0 0 0;
+  text-align: center;
+  color: white;
+  font-family:Microsoft JhengHei;
+  font-size: 3.8vw;
+}
+.right_one{
+  margin: 9vw 0 0 46.5vw;
+}
+.right{
+  margin: 20vw 0 0 46.5vw;
+}
+.left{
+  float: right;
+  margin: 7vw 46.5vw 0 0;
+}
+.history_img{
+  width: 6vw;
+}
+.history_p{
+  height: 3.2vw;
+}
+.history_p_r{
+  margin-left: 10.6vw;
+  padding-bottom: 2vw;
+}
+.history_p_l{
+  float: left;
+  padding-right: 6.6vw;
+}
+footer{
+  width: 100vw;
+  height: 10.5vw;
+  background-color: rgb(164,0,0);
+}
+footer img{
+  float: right;
+  width: 5.5vw;
+  padding-top: 2.5vw;
+  padding-right: 3vw;
+}
