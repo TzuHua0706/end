@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+}
+.LOGO{
+  position: absolute;
+  z-index: 3;
+  top: 20vw;
+  margin-left: 43.5vw;
+  margin-right: 43.5vw;
+  width: 13.5vw;
+}
+.logo2{
+  position: absolute;
+  z-index: 2;
+  top: 29.3vw;
+  left: 38.55vw;
+  width: 20.7vw;
+}
+.img_1{
+  width: 100vw;
+  position: absolute;
+  right: 49.4vw;
+}
+.img_1:hover{
+  animation-name: img_1;
+  animation-duration: 4s;
+  right: 0;
+  z-index: 1;
+}
+.img_2{
+  width: 100vw;
+  position: absolute;
+  left: 48.95vw;
+}
+.img_2:hover{
+  animation-name: img_2;
+  animation-duration: 4s;
+  left: 0;
+}
+@keyframes img_1 {
+  0%{
+    right:49.4vw;
+    z-index: 1;
+  }
+  100%{
+    right:0vw;
+    z-index: 1;
+  }
+}
+@keyframes img_2 {
+  0%{
+    left: 49.4vw;
+    z-index: 1;
+  }
+  100%{
+    left: 0vw;
+    z-index: 1;
+  }
+}

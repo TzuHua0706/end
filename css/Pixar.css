@@ -1,3 +1,6 @@
+.myMOUSE {
+    cursor:pointer;
+}
 .clear{
   clear: both;
 }
@@ -11,6 +14,7 @@ body{
   /*opacity: 0.5;*/
   background-color: rgb(169,191,225);
 }
+
 header{
   margin: 0;
   width: 100vw;
@@ -47,12 +51,14 @@ li{
 .img_down{
   width: 27vw;
   position: fixed;
-  margin: 82vh 0 0 38.5vw;
+  margin: 82vh 0 0 35.5vw;
+  z-index: 9;
 }
 .img_arrow{
   position: fixed;
   width: 5vw;
-  margin: 80vh 0 0 60.5vw;
+  margin: 80vh 0 0 57vw;
+  z-index: 10;
 }
 .img_time{
   float: left;
@@ -60,6 +66,7 @@ li{
   width: 54.8vw;
 }
 .p_time{
+  cursor: default;
   float: right;
   margin: 9vw 4vw 0 0;
   font-family:Microsoft JhengHei;
@@ -91,8 +98,9 @@ li{
   float: right;
 }
 .p_where{
+  cursor: default;
   float: left;
-  margin: 19vw 0 0 3.5vw;
+  margin: 19vw 0 0 4vw;
   font-size: 2.34vw;
   font-family:Microsoft JhengHei;
 }
@@ -103,14 +111,31 @@ li{
   margin-bottom: 20vw;
 }
 .history_title{
+  cursor: default;
   padding: 16.2vw 0 0 0;
   text-align: center;
   color: white;
   font-family:Microsoft JhengHei;
   font-size: 3.8vw;
 }
+.balloon{
+  margin: 0vw 0 0 32vw;
+  width: 33vw;
+}
+.line{
+  width: 1px;
+  height: 120vw;
+  margin: 19.5vw 0 0 49.6vw;
+  position: absolute;
+  background-color: black;
+  z-index:-1;
+}
+.man{
+  position: absolute;
+  margin: 12.5vw 0 0 42vw;
+}
 .right_one{
-  margin: 9vw 0 0 46.5vw;
+  margin: 0vw 0 0 46.5vw;
 }
 .right{
   margin: 20vw 0 0 46.5vw;
@@ -141,6 +166,6 @@ footer{
 footer img{
   float: right;
   width: 5.5vw;
-  padding-top: 2.5vw;
-  padding-right: 3vw;
+  margin-top: 2.5vw;
+  margin-right: 3vw;
 }
