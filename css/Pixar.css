@@ -92,7 +92,7 @@ li{
   margin: 1vw 0 0 0;
 }
 .img_where{
-  margin: 12.5vw 3.7vw 12.5vw 0;
+  margin: 10vw 3.7vw 0vw 0;
   width: 54.8vw;
   height: 30.3vw;
   float: right;
@@ -100,8 +100,8 @@ li{
 .p_where{
   cursor: default;
   float: left;
-  padding: 13vw 0 0 4vw;
-  margin-top: 6vw;
+  padding: 17vw 0 0 4vw;
+  margin-top: 0vw;
   font-size: 2.34vw;
   font-family:Microsoft JhengHei;
 }
@@ -114,7 +114,7 @@ li{
 .history_title{
   margin: 0;
   cursor: default;
-  padding: 4.2vw 0 3vw 0;
+  padding: 9vw 0 3vw 0;
   text-align: center;
   color: white;
   font-family:Microsoft JhengHei;
@@ -163,7 +163,8 @@ li{
   margin: 0vw 0 0 46.5vw;
 }
 .right{
-  margin: 20vw 0 0 46.5vw;
+  padding-top: 20vw;
+  margin: 0vw 0 0 46.5vw;
 }
 .left{
   float: right;
@@ -222,4 +223,16 @@ footer img{
   width: 5.5vw;
   margin-top: 2.5vw;
   margin-right: 3vw;
+}
+.box{
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  background-color: white;
+}
+.box_width{
+  width: 48vw;]
+}
+.display{
+  display: none;
 }
