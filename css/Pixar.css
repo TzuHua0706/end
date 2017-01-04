@@ -57,7 +57,7 @@ li{
 .img_arrow{
   position: fixed;
   width: 5vw;
-  margin: 80vh 0 0 57vw;
+  margin: 79vh 0 0 57vw;
   z-index: 10;
 }
 .img_time{
@@ -68,7 +68,7 @@ li{
 .p_time{
   cursor: default;
   float: right;
-  margin: 9vw 4vw 0 0;
+  padding: 9vw 4vw 0 0;
   font-family:Microsoft JhengHei;
   width: 33.5vw;
 }
@@ -92,7 +92,7 @@ li{
   margin: 1vw 0 0 0;
 }
 .img_where{
-  margin: 12.5vw 3.7vw 0 0;
+  margin: 12.5vw 3.7vw 12.5vw 0;
   width: 54.8vw;
   height: 30.3vw;
   float: right;
@@ -100,7 +100,8 @@ li{
 .p_where{
   cursor: default;
   float: left;
-  margin: 19vw 0 0 4vw;
+  padding: 13vw 0 0 4vw;
+  margin-top: 6vw;
   font-size: 2.34vw;
   font-family:Microsoft JhengHei;
 }
@@ -111,8 +112,9 @@ li{
   margin-bottom: 20vw;
 }
 .history_title{
+  margin: 0;
   cursor: default;
-  padding: 16.2vw 0 0 0;
+  padding: 4.2vw 0 3vw 0;
   text-align: center;
   color: white;
   font-family:Microsoft JhengHei;
@@ -123,16 +125,39 @@ li{
   width: 33vw;
 }
 .line{
-  width: 1px;
-  height: 120vw;
+  width: 4px;
+  height: 0vw;
   margin: 19.5vw 0 0 49.6vw;
   position: absolute;
   background-color: black;
   z-index:-1;
+/*  animation: line  10s infinite;*/
+  /*animation-name: line;
+  animation-duration:10s;*/
+}
+@keyframes line {
+  0%{
+   height: 0vw;
+  }
+  100%{
+   height: 230vw;
+  }
 }
 .man{
   position: absolute;
   margin: 12.5vw 0 0 42vw;
+  width: 17vw;
+/*  animation: man  10s infinite;*/
+/*  animation-name: man;
+  animation-duration:10s;*/
+}
+@keyframes man {
+  0%{
+   margin: 12.5vw 0 0 42vw;
+  }
+  100%{
+   margin: 238vw 0 0 42vw;
+  }
 }
 .right_one{
   margin: 0vw 0 0 46.5vw;
@@ -147,20 +172,49 @@ li{
 .history_img{
   width: 6vw;
 }
+.history_img:hover{
+  animation: mymove 1s infinite;
+  animation-direction:alternate;
+}
+@keyframes mymove {
+    from {
+      width: 6vw;
+    }
+    to {
+      width: 7vw;
+    }
+}
 .history_p{
   height: 3.2vw;
 }
 .history_p_r{
-  margin-left: 10.6vw;
-  padding-bottom: 2vw;
+  margin-left: 8.5vw;
+  padding-bottom: 1vw;
 }
 .history_p_l{
   float: left;
-  padding-right: 6.6vw;
+  margin-right: 8.5vw;
+  padding-top: 1vw;
+}
+.img_line_p{
+  position: absolute;
+  background-color: black;
+  height: 4px;
+  width: 8.5vw;
+  margin: 3vw 0 0 5.5vw;
+  z-index: -1;
+}
+.p_line_img{
+  position: absolute;
+  background-color: black;
+  height: 4px;
+  width: 8.5vw;
+  margin: 10vw 0 0 38.5vw;
+  z-index: -1;
 }
 footer{
   width: 100vw;
-  height: 10.5vw;
+  height: 15vw;
   background-color: rgb(164,0,0);
 }
 footer img{
