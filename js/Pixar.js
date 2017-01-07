@@ -1,7 +1,4 @@
 $(document).ready(function(){
-if ($('.footer').offset().top<$('.img_down').offset().top) {
-  $(".img_down").addClass("display");
-}
   $(".img_down").click(function(){
     if($('.history_9').offset().top<$('.img_down').offset().top){
       $('html,body').animate({scrollTop: $('.history_9').offset().top},500);
@@ -60,10 +57,5 @@ if ($('.footer').offset().top<$('.img_down').offset().top) {
       }
     }
   });
-});
-$(document).ready(function(){
-  if ($('.footer').offset().top<$('.img_down').offset().top) {
-    $(".img_down").addClass("display");
-  }
 });
   /*$(selector).animate(styles,speed,easing,callback)*/

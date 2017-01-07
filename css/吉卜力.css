@@ -1,0 +1,191 @@
+.myMOUSE {
+    cursor:pointer;
+}
+.clear{
+  clear: both;
+}
+html{
+  background-image: url(../mockup等/吉卜力網站視覺圖.png);
+  background-repeat:no-repeat;
+  background-size:100%;
+  height: 6000px;
+}
+body{
+  margin: 0;
+  background-color: rgb(135,175,76);
+}
+
+header{
+  margin: 0;
+  width: 100vw;
+  height: 60vw;
+}
+.img_look{
+  width: 100vw;
+  margin: 0;
+}
+.position{
+  position: absolute;
+  width: 100vw;
+}
+ul{
+	margin:0;
+	padding: 0;
+  float: right;
+  width: 14vw;
+}
+li{
+	list-style: none;
+  float: left;
+  margin-top: 2vw;
+}
+.img_chat{
+  width: 4.5vw;
+  margin-right: 2vw;
+  margin-top: 1vw;
+}
+.img_home{
+  width: 4.5vw;
+  margin-right: 2vw;
+}
+.img_down{
+  width: 27vw;
+  position: fixed;
+  margin: 82vh 0 0 35.5vw;
+  z-index: 9;
+}
+.img_arrow{
+  position: fixed;
+  width: 5vw;
+  margin: 79vh 0 0 57vw;
+  z-index: 10;
+}
+.img_time{
+  float: left;
+  padding: 9.5vw 0 0 3.7vw;
+  width: 54.8vw;
+}
+.p_time{
+  cursor: default;
+  float: right;
+  margin: 9vw 4vw 0 0;
+  font-family:Microsoft JhengHei;
+  width: 30vw;
+}
+.p_time_up{
+  margin-top: 1.5vw;
+  font-size: 2vw;
+}
+.p_time_p{
+  margin:1vw 0 0 0;
+}
+.p_time_r{
+  float: right;
+}
+.p_time_2{
+  margin-left: 4vw;
+}
+.p_time_3{
+  margin-left: 15vw;
+}
+.p_time_top{
+  padding-top: 1.5vw;
+}
+.p_time_down{
+  margin: 0vw 0 0 0vw;
+  font-size: 1.5vw;
+}
+.img_where{
+  padding: 10vw 3.7vw 0vw 0;
+  width: 54.8vw;
+  height: 30.3vw;
+  float: right;
+}
+.p_where{
+  width: 28vw;
+  cursor: default;
+  float: left;
+  margin: 17vw 0 0 9vw;
+  font-size: 2vw;
+  font-family:Microsoft JhengHei;
+}
+.p_where_p{
+  margin: 1vw 0 0 0;
+}
+.p_where_r{
+  color: rgb(129,81,26);
+  text-align: center;
+  margin: 0vw 0 0 0;
+  padding: 2px;
+  border: 3px solid rgb(129,81,26);
+  border-radius : 10px;
+}
+.where_color{
+  color: rgb(129,81,26);
+  text-align: center;
+  margin: 0vw 0 0 0;
+  padding: 2px;
+  border: 3px solid rgb(129,81,26);
+  border-radius : 10px;
+  background-color: rgb(255,255,187);
+}
+.p_where_2{
+  text-align: center;
+  margin-top: 1vw;
+}
+.p_where_3{
+  margin-right: 4vw;
+}
+.history{
+  margin-bottom: 20vw;
+}
+.history_title{
+  margin: 0;
+  cursor: default;
+  padding: 9vw 0 3vw 0;
+  text-align: center;
+  color: rgb(129,81,26);
+  font-family:Microsoft JhengHei;
+  font-size: 3.8vw;
+}
+.history_img{
+  padding-top: 12.8vw;
+}
+.h_position{
+  position: absolute;
+}
+.h_img{
+  width: 7vw;
+  margin-bottom: 9.8vw;
+}
+.h_img_l{
+  margin-left: 16.5vw;
+}
+.h_img_r{
+  margin-left: 75.4vw;
+}
+.h_p{
+  height: 3vw;
+}
+.h_p_l{
+  margin: 2vw 0 0 24vw;
+}
+.h_p_r{
+  margin: 2vw 0 0 16vw;
+}footer{
+  width: 100vw;
+  height: 10vw;
+  background-color: rgb(129,81,26);
+}
+footer img{
+  float: right;
+  width: 5.5vw;
+  margin-top: 2.5vw;
+  margin-right: 3vw;
+}
+.display{
+  display: none;
+}
+.block{
+  display: block;
+}

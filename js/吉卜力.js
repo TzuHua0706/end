@@ -1,0 +1,22 @@
+$(document).ready(function(){
+  $("#where_up").click(function(){
+    $("#where_down").addClass("p_where_r");
+    $("#where_up").addClass("where_color");
+    $("#where_down").removeClass("where_color");
+    $("#where_up").removeClass("p_where_r");
+    $("#where_up_img").addClass("block");
+    $("#where_down_img").addClass("display");
+    $("#where_up_img").removeClass("display");
+    $("#where_down_img").removeClass("block");
+  });
+  $("#where_down").click(function(){
+    $("#where_down").addClass("where_color");
+    $("#where_up").addClass("p_where_r");
+    $("#where_down").removeClass("p_where_r");
+    $("#where_up").removeClass("where_color");
+    $("#where_up_img").addClass("display");
+    $("#where_down_img").addClass("block");
+    $("#where_up_img").removeClass("block");
+    $("#where_down_img").removeClass("display");
+  });
+});

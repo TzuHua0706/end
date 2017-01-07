@@ -144,12 +144,19 @@ li{
   }
 }
 .man{
-  position: absolute;
-  margin: 12.5vw 0 0 42vw;
+  display: none;
+  position: fixed;
+  margin: 15vw 0 0 42vw;
+  /*position: absolute;
+  margin: 12.5vw 0 0 42vw;*/
+  z-index: 7;
   width: 17vw;
 /*  animation: man  10s infinite;*/
 /*  animation-name: man;
   animation-duration:10s;*/
+}
+.block{
+  display: block;
 }
 @keyframes man {
   0%{
@@ -174,8 +181,8 @@ li{
   width: 6vw;
 }
 .history_img:hover{
-  animation: mymove 1s infinite;
-  animation-direction:alternate;
+/*  animation: mymove 1s infinite;
+  animation-direction:alternate;*/
 }
 @keyframes mymove {
     from {
@@ -215,7 +222,7 @@ li{
 }
 footer{
   width: 100vw;
-  height: 15vw;
+  height: 10vw;
   background-color: rgb(164,0,0);
 }
 footer img{

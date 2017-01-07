@@ -13,7 +13,7 @@ body{
   position: absolute;
   z-index: 2;
   top: 29.3vw;
-  left: 38.55vw;
+  left: 39.35vw;
   width: 20.7vw;
 }
 .img_1{
@@ -27,15 +27,19 @@ body{
   right: 0;
   z-index: 1;
 }
+.hid{
+  height: 63vw;
+  overflow: hidden;
+}
 .img_2{
-  width: 100vw;
   position: absolute;
-  left: 48.95vw;
+  width: 100vw;
+  margin-left: 48.95vw;
 }
 .img_2:hover{
   animation-name: img_2;
   animation-duration: 4s;
-  left: 0;
+  margin-left: 0vw;
 }
 @keyframes img_1 {
   0%{
@@ -49,11 +53,11 @@ body{
 }
 @keyframes img_2 {
   0%{
-    left: 49.4vw;
+    margin-left: 49.4vw;
     z-index: 1;
   }
   100%{
-    left: 0vw;
+    margin-left: 0vw;
     z-index: 1;
   }
 }
