@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="填入jquery.mousewheel-?.?.?.pack.js路徑"></script>
+		<link rel="stylesheet" href="填入jquery.fancybox.css?v=2.1.5路徑" type="text/css" media="screen" />
+    <script type="text/javascript" src="填入jquery.fancybox.pack.js?v=2.1.5路徑"></script>
+		<link rel="stylesheet" href="填入jquery.fancybox-buttons.css?v=1.0.5路徑" type="text/css" media="screen" />
+    <script type="text/javascript" src="填入jquery.fancybox-buttons.js?v=1.0.5路徑"></script>
+    <script type="text/javascript" src="填入jquery.fancybox-media.js?v=1.0.6路徑"></script>
+    <link rel="stylesheet" href="填入jquery.fancybox-thumbs.css?v=1.0.7路徑" type="text/css" media="screen" />
+    <script type="text/javascript" src="填入jquery.fancybox-thumbs.js?v=1.0.7路徑"></script>
+
 		<meta charset="utf-8">
 		<title>123</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css\123.css">
+		<link rel="stylesheet" href="css\jquery.fancybox.css">
+		<link rel="stylesheet" href="css\jquery.fancybox-buttons.css">
+		<link rel="stylesheet" href="css\jquery.fancybox-thumbs.css">
 		<script src="js/jquery.js"></script>
 	<!--	<script src="js\Pixar.js"></script>-->
-		<script src="js\123.js"></script>
+		<script src="js\jquery.fancybox.js"></script>
+		<script src="js\jquery.fancybox.pack.js"></script>
+		<script src="js\jquery.fancybox-buttons.js"></script>
+		<script src="js\jquery.fancybox-media.js"></script>
+		<script src="js\jquery.fancybox-thumbs.js"></script>
+		<script src="js\jquery.mousewheel-3.0.6.pack.js"></script>
 	</head>
 	<body>
-		<div class="line"></div>
+		<a class="fancybox" rel="group" href="img\27.jpg"><img src="img\k_9.png" alt="" /></a>
+    <a class="fancybox" rel="group" href="大圖網址2.jpg"><img src="小圖網址2.jpg" alt="" /></a>
+
+		<script type="text/javascript">
+      $(document).ready(function() {
+        $(".fancybox").fancybox();
+      });
+    </script>
+
+		<!-- fancybox 前導程式 start-->
+    <script>
+    //<![CDATA[
+      $(function () {
+      $("body img").each(function() {
+      var parent = $(this).parent();
+      if (parent[0].tagName == "A") {
+        parent.attr({
+        "class": "fancybox",
+        "rel": "gallery"
+      });
+      } else {
+parent.wrap("<a class='fancybox' rel='gallery' href='" + $(this).attr("src") + "'></a>")
+}
+});
+$(".fancybox").fancybox();
+});
+//]]>
+</script>
+<!-- fancybox 前導程式end, Designed By WFU BLOG -->
 </body>

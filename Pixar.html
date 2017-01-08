@@ -1,14 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="填入jquery.mousewheel-?.?.?.pack.js路徑"></script>
+		<link rel="stylesheet" href="填入jquery.fancybox.css?v=2.1.5路徑" type="text/css" media="screen" />
+    <script type="text/javascript" src="填入jquery.fancybox.pack.js?v=2.1.5路徑"></script>
+		<link rel="stylesheet" href="填入jquery.fancybox-buttons.css?v=1.0.5路徑" type="text/css" media="screen" />
+    <script type="text/javascript" src="填入jquery.fancybox-buttons.js?v=1.0.5路徑"></script>
+    <script type="text/javascript" src="填入jquery.fancybox-media.js?v=1.0.6路徑"></script>
+    <link rel="stylesheet" href="填入jquery.fancybox-thumbs.css?v=1.0.7路徑" type="text/css" media="screen" />
+    <script type="text/javascript" src="填入jquery.fancybox-thumbs.js?v=1.0.7路徑"></script>
+
 		<meta charset="utf-8">
 		<title>Pixar</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css\Pixar.css">
 		<link rel="stylesheet" href="css\animate.css">
+		<link rel="stylesheet" href="css\jquery.fancybox.css">
+		<link rel="stylesheet" href="css\jquery.fancybox-buttons.css">
+		<link rel="stylesheet" href="css\jquery.fancybox-thumbs.css">
+
 		<script src="js/jquery.js"></script>
 		<script src="js\Pixar.js"></script>
-		<script src="js\123.js"></script>
+		<script src="js\jquery.fancybox.js"></script>
+		<script src="js\jquery.fancybox.pack.js"></script>
+		<script src="js\jquery.fancybox-buttons.js"></script>
+		<script src="js\jquery.fancybox-media.js"></script>
+		<script src="js\jquery.fancybox-thumbs.js"></script>
+		<script src="js\jquery.mousewheel-3.0.6.pack.js"></script>
+
 	</head>
 	<body>
 	  <img src="img\15841025_120300001398778980_1294598776_n.png" class="man">
@@ -31,6 +51,9 @@
         <img src="img\Pixar2.gif" class="img_look">
       </div>
     </header>
+		<div>
+			<img src="img\左陰影_1.png" class="shadow_2">
+		</div>
     <div>
       <div>
         <img src="img\pixar3.gif" class="img_time">
@@ -51,14 +74,17 @@
       </div>
     </div>
     <div class="clear p_where">
-      <p class="p_where_p">展覽位置:</p>
-      <p class="p_where_p">國立歷史博物館1F</p>
-      <p class="p_where_p">100台北市中正區南海路49號</p>
+      <p class="p_where_p ">展覽位置:</p>
+      <p class="p_where_p p_where_2">國立歷史博物館1F</p>
+      <p class="p_where_p p_where_2">100台北市中正區南海路49號</p>
     </div>
     <div>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2149.5236196195933!2d121.50901189771895!3d25.032261369773174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9a3ad3d1ecf%3A0x99a6838a6811d6ec!2z5ZyL56uL5q235Y-y5Y2a54mp6aSo!5e0!3m2!1szh-TW!2stw!4v1483267065822" width="800" height="600" frameborder="0" style="border:0" allowfullscreen class="img_where"></iframe>
 			<!--<img src="img\地圖.png" class="img_where">-->
     </div>
+	  	<div>
+		  	<img src="img\右陰影_1.png" class="shadow">
+	  	</div>
     </div>
     <div class="clear history">
       <div>
@@ -71,29 +97,35 @@
 			<div>
 				<img src="img\15870923_120300001386090640_787776605_n.png" class="balloon">
 			</div>
+			<div id="history_img">
       <div class="right_one">
 				<div class="img_line_p"></div>
-        <img src="img\y1.png" class="history_img history_1">
+        <!--<img src="img\y1.png" class="history_img history_1">-->
+				<a class="fancybox" rel="group" href="img\toy.jpg"><img src="img\y1.png" alt="" class="history_img history_1 history_img_g"/></a>
         <img src="img\x1.png" class="history_p history_p_r">
       </div>
 		  <div class="p_line_img"></div>
       <div class="left">
         <img src="img\x2.png" class="history_p history_p_l">
-        <img src="img\y2.png" class="history_img img_left">
+        <!--<img src="img\y2.png" class="history_img img_left">-->
+				<a class="fancybox" rel="group" href="img\bug.jpg"><img src="img\y2.png" alt="" class="history_img img_left history_img_g"/></a>
       </div>
       <div class="right">
 				<div class="img_line_p"></div>
-        <img src="img\y3.png" class="history_img history_2">
+				<a class="fancybox" rel="group" href="img\toy2.JPG"><img src="img\y3.png" alt="" class="history_img history_2 history_img_g"/></a>
+        <!--<img src="img\y3.png" class="history_img history_2">-->
         <img src="img\x3.png" class="history_p history_p_r">
       </div>
 			<div class="p_line_img"></div>
       <div class="left">
         <img src="img\x4.png" class="history_p history_p_l">
-        <img src="img\y4.png" class="history_img img_left">
+				<a class="fancybox" rel="group" href="img\monster.jpg"><img src="img\y4.png" alt="" class="history_img img_left history_img_g"/></a>
+        <!--<img src="img\y4.png" class="history_img img_left">-->
       </div>
       <div class="right">
 				<div class="img_line_p"></div>
-        <img src="img\y5.png" class="history_img history_3">
+				<a class="fancybox" rel="group" href="img\sea.jpg"><img src="img\y5.png" alt="" class="history_img history_3 history_img_g"/></a>
+        <!--<img src="img\y5.png" class="history_img history_3">-->
         <img src="img\x5.png" class="history_p history_p_r">
       </div>
 			<div class="p_line_img"></div>
@@ -113,13 +145,16 @@
       </div>
       <div class="right">
 				<div class="img_line_p"></div>
-        <img src="img\y9.png" class="history_img history_5">
+				<a class="fancybox" rel="group" href="img\walle.jpg"><img src="img\y9.png" alt="" class="history_img history_5 history_img_g"/></a>
+        <!--<img src="img\y9.png" class="history_img history_5">-->
         <img src="img\x9.png" class="history_p history_p_r">
       </div>
 			<div class="p_line_img"></div>
       <div class="left">
         <img src="img\x10.png" class="history_p history_p_l">
-        <img src="img\y10.png" class="history_img img_left">
+				<a class="fancybox" rel="group" href="img\天.jpg"><img src="img\y10.png" alt="" class="history_img img_left history_img_g"/></a>
+				<a class="fancybox" rel="group" href="img\up.jpg"><img src="img\y10.png" alt="" class="history_img img_left display history_img_g"/></a>
+        <!--<img src="img\y10.png" class="history_img img_left">-->
       </div>
       <div class="right">
 				<div class="img_line_p"></div>
@@ -133,7 +168,8 @@
       </div>
       <div class="right">
 				<div class="img_line_p"></div>
-        <img src="img\y13.png" class="history_img history_7">
+				<a class="fancybox" rel="group" href="img\勇敢.jpg"><img src="img\y13.png" alt="" class="history_img history_7 history_img_g"/></a>
+        <!--<img src="img\y13.png" class="history_img history_7">-->
         <img src="img\x13.png" class="history_p history_p_r">
       </div>
 			<div class="p_line_img"></div>
@@ -157,9 +193,50 @@
         <img src="img\x17.png" class="history_p history_p_r">
       </div>
     </div>
+	  </div>
     <footer class="clear footer">
-	   	<img src="img\ig.png" class="myMOUSE">
+
+			<div class="fb-like" data-href="https://tzuhua0706.github.io/end/Pixar.html" data-width="100px" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+
+			<img src="img\ig.png" class="myMOUSE">
       <img src="img\fb.png" class="myMOUSE">
     </footer>
+
+				<script type="text/javascript">
+		      $(document).ready(function() {
+		        $(".fancybox").fancybox();
+		      });
+		    </script>
+
+				<!-- fancybox 前導程式 start-->
+				<script>
+				//<![CDATA[
+					$(function () {
+					$("#history_img .history_img_g").each(function() {
+					var parent = $(this).parent();
+					if (parent[0].tagName == "A") {
+						parent.attr({
+						"class": "fancybox",
+						"rel": "gallery"
+					});
+					} else {
+		parent.wrap("<a class='fancybox' rel='gallery' href='" + $(this).attr("src") + "'></a>")
+		}
+		});
+		$(".fancybox").fancybox();
+		});
+		//]]>
+		</script>
+		<!-- fancybox 前導程式end, Designed By WFU BLOG -->
 	</body>
+
+		<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.8&appId=594227994101245";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
 </html>

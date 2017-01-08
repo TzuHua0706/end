@@ -4,6 +4,20 @@
 .clear{
   clear: both;
 }
+.shadow{
+  height: 30.5vw;
+  width: 37vw;
+  position: absolute;
+  opacity: 0.5;
+  margin:9.5vw 0 0 0vw;
+}
+.shadow_2{
+  position: absolute;
+  height: 30.3vw;
+  width: 37vw;
+  opacity: 0.5;
+  margin: 50vw 0 0 3.55vw;
+}
 html{
   /*background-image: url(../img/未命名-1.png);
   background-repeat:no-repeat;
@@ -68,12 +82,12 @@ li{
 .p_time{
   cursor: default;
   float: right;
-  padding: 9vw 4vw 0 0;
+  padding: 10.5vw 5.5vw 0 0;
   font-family:Microsoft JhengHei;
   width: 33.5vw;
 }
 .p_time_up{
-  font-size: 2.34vw;
+  font-size: 2vw;
 }
 .p_time_p{
   margin:0;
@@ -86,7 +100,7 @@ li{
 }
  .p_time_down{
    margin: 10.5vw 0 0 6vw;
-   font-size: 1.8vw;
+   font-size: 1.5vw;
  }
 .p_time_d{
   margin: 1vw 0 0 0;
@@ -100,13 +114,16 @@ li{
 .p_where{
   cursor: default;
   float: left;
-  padding: 17vw 0 0 4vw;
+  padding: 18vw 0 0 8vw;
   margin-top: 0vw;
-  font-size: 2.34vw;
+  font-size: 2vw;
   font-family:Microsoft JhengHei;
 }
 .p_where_p{
   margin: 1vw 0 0 0;
+}
+.p_where_2{
+  margin: 1vw 0 0 2vw;;
 }
 .history{
   margin-bottom: 20vw;

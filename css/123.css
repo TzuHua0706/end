@@ -1,3 +1,21 @@
-.line{
-	border: 1px solid #00; border-collapse: collapse;
+body{
+	background-color: 	#1AFD9C;
+}
+.img{
+	width: 10vw;
+}
+.box{
+	background-color: white;
+	z-index: -1;
+	position:fixed;
+	left: 100px;
+}
+#box{
+	position:fixed;
+}
+.display{
+	display: none;
+}
+.block{
+	display: block;
 }

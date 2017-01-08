@@ -14,11 +14,23 @@ body{
   margin: 0;
   background-color: rgb(135,175,76);
 }
-
 header{
   margin: 0;
   width: 100vw;
-  height: 60vw;
+}
+.shadow{
+  height: 30.3vw;
+  width: 37vw;
+  position: absolute;
+  opacity: 0.5;
+  margin:10vw 0 0 0vw;
+}
+.shadow_2{
+  position: absolute;
+  height: 30.3vw;
+  width: 37vw;
+  opacity: 0.5;
+  margin: 50.3vw 0 0 3.55vw;
 }
 .img_look{
   width: 100vw;
@@ -62,13 +74,13 @@ li{
 }
 .img_time{
   float: left;
-  padding: 9.5vw 0 0 3.7vw;
+  padding: 10vw 0 0 3.7vw;
   width: 54.8vw;
 }
 .p_time{
   cursor: default;
   float: right;
-  margin: 9vw 4vw 0 0;
+  margin: 9.5vw 7vw 0 0;
   font-family:Microsoft JhengHei;
   width: 30vw;
 }
@@ -102,10 +114,11 @@ li{
   float: right;
 }
 .p_where{
+  position: absolute;
   width: 28vw;
   cursor: default;
   float: left;
-  margin: 17vw 0 0 9vw;
+  margin: 57vw 0 0 8vw;
   font-size: 2vw;
   font-family:Microsoft JhengHei;
 }
@@ -113,19 +126,19 @@ li{
   margin: 1vw 0 0 0;
 }
 .p_where_r{
-  color: rgb(129,81,26);
+  color: black;
   text-align: center;
-  margin: 0vw 0 0 0;
+  margin: 0vw 0 0 4vw;
   padding: 2px;
-  border: 3px solid rgb(129,81,26);
+  border: 3px solid black;
   border-radius : 10px;
 }
 .where_color{
-  color: rgb(129,81,26);
+  color: black;
   text-align: center;
-  margin: 0vw 0 0 0;
+  margin: 0vw 0 0 4vw;
   padding: 2px;
-  border: 3px solid rgb(129,81,26);
+  border: 3px solid black;
   border-radius : 10px;
   background-color: rgb(255,255,187);
 }
@@ -135,6 +148,10 @@ li{
 }
 .p_where_3{
   margin-right: 4vw;
+}
+.go{
+  position: fixed;
+  left: 65vw;
 }
 .history{
   margin-bottom: 20vw;

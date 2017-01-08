@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="填入jquery.mousewheel-?.?.?.pack.js路徑"></script>
+		<link rel="stylesheet" href="填入jquery.fancybox.css?v=2.1.5路徑" type="text/css" media="screen" />
+    <script type="text/javascript" src="填入jquery.fancybox.pack.js?v=2.1.5路徑"></script>
+		<link rel="stylesheet" href="填入jquery.fancybox-buttons.css?v=1.0.5路徑" type="text/css" media="screen" />
+    <script type="text/javascript" src="填入jquery.fancybox-buttons.js?v=1.0.5路徑"></script>
+    <script type="text/javascript" src="填入jquery.fancybox-media.js?v=1.0.6路徑"></script>
+    <link rel="stylesheet" href="填入jquery.fancybox-thumbs.css?v=1.0.7路徑" type="text/css" media="screen" />
+    <script type="text/javascript" src="填入jquery.fancybox-thumbs.js?v=1.0.7路徑"></script>
+
 		<meta charset="utf-8">
 		<title>吉卜力</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css\吉卜力.css">
 		<link rel="stylesheet" href="css\animate.css">
+		<link rel="stylesheet" href="css\jquery.fancybox.css">
+		<link rel="stylesheet" href="css\jquery.fancybox-buttons.css">
+		<link rel="stylesheet" href="css\jquery.fancybox-thumbs.css">
+
 		<script src="js/jquery.js"></script>
 		<script src="js\吉卜力.js"></script>
-		<script src="js\123.js"></script>
+		<script src="js\jquery.fancybox.js"></script>
+		<script src="js\jquery.fancybox.pack.js"></script>
+		<script src="js\jquery.fancybox-buttons.js"></script>
+		<script src="js\jquery.fancybox-media.js"></script>
+		<script src="js\jquery.fancybox-thumbs.js"></script>
+		<script src="js\jquery.mousewheel-3.0.6.pack.js"></script>
 	</head>
   <body>
+	<div>
+		<img src="img\go.png" class="go">
+	</div>
     <header>
       <div class="position">
         <nav>
@@ -30,6 +52,9 @@
         <img src="img\吉卜力2.gif" class="img_look">
       </div>
     </header>
+		<div>
+			<img src="img\左陰影_2.png" class="shadow_2">
+		</div>
     <div>
       <div>
         <img src="img\吉卜力3.gif" class="img_time">
@@ -51,27 +76,33 @@
     </div>
     <div class="clear p_where">
       <p class="p_where_p">展覽位置:</p>
-      <p class="p_where_p p_where_2">大台中國際會展中心</p>
-      <p class="where_color myMOUSE" id="where_up">where</p>
-      <p class="p_where_p p_where_2">國立科學工藝博物館</p>
-      <p class="p_where_r myMOUSE" id="where_down">where</p>
+      <p class="p_where_p p_where_2 where_color myMOUSE" id="where_up">大台中國際會展中心</p>
+    <!--  <p class="where_color myMOUSE" id="where_up">where</p>-->
+      <p class="p_where_p p_where_2 p_where_r myMOUSE" id="where_down">國立科學工藝博物館</p>
+    <!--  <p class="p_where_r myMOUSE" id="where_down">where</p>-->
     </div>
     <div>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3641.5770144819835!2d120.61237431552993!3d24.116366184410225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693e9ed5fb8c11%3A0x83f1c5acba2909c5!2z5aSn5Y-w5Lit5ZyL6Zqb5pyD5bGV5Lit5b-D!5e0!3m2!1szh-TW!2stw!4v1483777225509" width="800" height="600" frameborder="0" style="border:0" allowfullscreen class="img_where" id="where_up_img"></iframe>
 			<!--<img src="img\地圖.png" class="img_where">-->
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.3586063002854!2d120.32029106550841!3d22.640414485147968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e04c2f0c9adf3%3A0x1a2756e5ee25f515!2z5ZyL56uL56eR5a245bel6Jed5Y2a54mp6aSo!5e0!3m2!1szh-TW!2stw!4v1483777337886" width="800" height="600" frameborder="0" style="border:0" allowfullscreen class="img_where display" id="where_down_img"></iframe>
     </div>
+	  	<div>
+		  	<img src="img\右陰影_2.png" class="shadow">
+	  	</div>
     <div class="clear history">
       <div>
         <p class="history_title rubberBand animated">吉卜力電影歷史</p>
       </div>
+		<!--	<div>
+				<img src="img\go.png" class="go">
+			</div>-->
       <div class="history_img">
       <div>
         <div>
           <img src="img\p_1.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_1.png" class="h_img h_img_l">
+          <img src="img\k_1.png" class="h_img h_img_l history_1">
         </div>
       </div>
       <div>
@@ -79,7 +110,9 @@
           <img src="img\p_2.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_2.png" class="h_img h_img_r">
+					<a class="fancybox" rel="group" href="img\k_2_1.png"><img src="img\k_2.png" alt="" class="h_img h_img_r history_2 h_img_g"/></a>
+					<a class="fancybox" rel="group" href="img\k_2_2.png"><img src="img\k_2.png" alt="" class="h_img h_img_r display h_img_g"/></a>
+          <!--<img src="img\k_2.png" class="h_img h_img_r history_2">-->
         </div>
       </div>
       <div>
@@ -87,7 +120,11 @@
           <img src="img\p_3.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_3.png" class="h_img h_img_l">
+			  	<a class="fancybox" rel="group" href="img\k_3_1.png"><img src="img\k_3.png" alt="" class="h_img h_img_l history_3 h_img_g"/></a>
+				  <a class="fancybox" rel="group" href="img\k_3_2.png"><img src="img\k_3.png" alt="" class="h_img h_img_l display h_img_g"/></a>
+					<a class="fancybox" rel="group" href="img\k_3_3.png"><img src="img\k_3.png" alt="" class="h_img h_img_l display h_img_g"/></a>
+					<a class="fancybox" rel="group" href="img\k_3_4.png"><img src="img\k_3.png" alt="" class="h_img h_img_l display h_img_g"/></a>
+          <!--<img src="img\k_3.png" class="h_img h_img_l history_3">-->
         </div>
       </div>
       <div>
@@ -95,7 +132,7 @@
           <img src="img\p_4.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_4.png" class="h_img h_img_r">
+          <img src="img\k_4.png" class="h_img h_img_r history_4">
         </div>
       </div>
       <div>
@@ -103,7 +140,9 @@
           <img src="img\p_5.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_5.png" class="h_img h_img_l">
+			  	<a class="fancybox" rel="group" href="img\k_5_1.png"><img src="img\k_5.png" alt="" class="h_img h_img_l history_5 h_img_g"/></a>
+				  <a class="fancybox" rel="group" href="img\k_5_2.png"><img src="img\k_5.png" alt="" class="h_img h_img_l display h_img_g"/></a>
+          <!--<img src="img\k_5.png" class="h_img h_img_l history_5">-->
         </div>
       </div>
       <div>
@@ -111,7 +150,7 @@
           <img src="img\p_6.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_6.png" class="h_img h_img_r">
+          <img src="img\k_6.png" class="h_img h_img_r history_6">
         </div>
       </div>
       <div>
@@ -119,7 +158,8 @@
           <img src="img\p_7.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_7.png" class="h_img h_img_l">
+			  	<a class="fancybox" rel="group" href="img\k_7_1.png"><img src="img\k_7.png" alt="" class="h_img h_img_l history_7 h_img_g"/></a>
+          <!--<img src="img\k_7.png" class="h_img h_img_l history_7">-->
         </div>
       </div>
       <div>
@@ -127,7 +167,7 @@
           <img src="img\p_8.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_8.png" class="h_img h_img_r">
+          <img src="img\k_8.png" class="h_img h_img_r history_8">
         </div>
       </div>
       <div>
@@ -135,7 +175,7 @@
           <img src="img\p_9.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_9.png" class="h_img h_img_l">
+          <img src="img\k_9.png" class="h_img h_img_l history_9">
         </div>
       </div>
       <div>
@@ -143,7 +183,9 @@
           <img src="img\p_10.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_10.png" class="h_img h_img_r">
+			  	<a class="fancybox" rel="group" href="img\k_10_1.png"><img src="img\k_10.png" alt="" class="h_img h_img_r history_10 h_img_g"/></a>
+				  <a class="fancybox" rel="group" href="img\k_10_2.png"><img src="img\k_10.png" alt="" class="h_img h_img_r display h_img_g"/></a>
+          <!--<img src="img\k_10.png" class="h_img h_img_r history_10">-->
         </div>
       </div>
       <div>
@@ -151,7 +193,7 @@
           <img src="img\p_11.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_11.png" class="h_img h_img_l">
+          <img src="img\k_11.png" class="h_img h_img_l history_11">
         </div>
       </div>
       <div>
@@ -159,7 +201,11 @@
           <img src="img\p_12.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_12.png" class="h_img h_img_r">
+			  	<a class="fancybox" rel="group" href="img\k_12_1.png"><img src="img\k_12.png" alt="" class="h_img h_img_r history_12 h_img_g"/></a>
+				  <a class="fancybox" rel="group" href="img\k_12_2.png"><img src="img\k_3.png" alt="" class="h_img h_img_l display h_img_g"/></a>
+					<a class="fancybox" rel="group" href="img\k_12_3.png"><img src="img\k_3.png" alt="" class="h_img h_img_l display h_img_g"/></a>
+					<a class="fancybox" rel="group" href="img\k_12_4.png"><img src="img\k_3.png" alt="" class="h_img h_img_l display h_img_g"/></a>
+          <!--<img src="img\k_12.png" class="h_img h_img_r history_12">-->
         </div>
       </div>
       <div>
@@ -167,7 +213,7 @@
           <img src="img\p_13.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_13.png" class="h_img h_img_l">
+          <img src="img\k_13.png" class="h_img h_img_l history_13">
         </div>
       </div>
       <div>
@@ -175,7 +221,9 @@
           <img src="img\p_14.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_14.png" class="h_img h_img_r">
+			  	<a class="fancybox" rel="group" href="img\k_14_1.png"><img src="img\k_14.png" alt="" class="h_img h_img_r history_14 h_img_g"/></a>
+				  <a class="fancybox" rel="group" href="img\k_14_2.png"><img src="img\k_3.png" alt="" class="h_img h_img_l display h_img_g"/></a>
+          <!--<img src="img\k_14.png" class="h_img h_img_r history_14">-->
         </div>
       </div>
       <div>
@@ -183,7 +231,7 @@
           <img src="img\p_15.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_15.png" class="h_img h_img_l">
+          <img src="img\k_15.png" class="h_img h_img_l history_15">
         </div>
       </div>
       <div>
@@ -191,7 +239,8 @@
           <img src="img\p_16.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_16.png" class="h_img h_img_r">
+			  	<a class="fancybox" rel="group" href="img\k_16_1.png"><img src="img\k_16.png" alt="" class="h_img h_img_r history_16 h_img_g"/></a>
+          <!--<img src="img\k_16.png" class="h_img h_img_r history_16">-->
         </div>
       </div>
       <div>
@@ -199,7 +248,7 @@
           <img src="img\p_17.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_17.png" class="h_img h_img_l">
+          <img src="img\k_17.png" class="h_img h_img_l history_17">
         </div>
       </div>
       <div>
@@ -207,7 +256,7 @@
           <img src="img\p_18.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_18.png" class="h_img h_img_r">
+          <img src="img\k_18.png" class="h_img h_img_r history_18">
         </div>
       </div>
       <div>
@@ -215,7 +264,7 @@
           <img src="img\p_19.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_19.png" class="h_img h_img_l">
+          <img src="img\k_19.png" class="h_img h_img_l history_19">
         </div>
       </div>
       <div>
@@ -223,7 +272,9 @@
           <img src="img\p_20.png" class="h_p h_position h_p_r">
         </div>
         <div>
-          <img src="img\k_20.png" class="h_img h_img_r">
+			  	<a class="fancybox" rel="group" href="img\k_20_1.png"><img src="img\k_20.png" alt="" class="h_img h_img_r history_20 h_img_g"/></a>
+				  <a class="fancybox" rel="group" href="img\k_20_2.png"><img src="img\k_3.png" alt="" class="h_img h_img_l display h_img_g"/></a>
+          <!--<img src="img\k_20.png" class="h_img h_img_r history_20">-->
         </div>
       </div>
       <div>
@@ -231,7 +282,7 @@
           <img src="img\p_21.png" class="h_p h_position h_p_l">
         </div>
         <div>
-          <img src="img\k_21.png" class="h_img h_img_l">
+          <img src="img\k_21.png" class="h_img h_img_l history_21">
         </div>
       </div>
       </div>
@@ -240,5 +291,33 @@
 	   	<img src="img\ig.png" class="myMOUSE">
       <img src="img\fb.png" class="myMOUSE">
     </footer>
+
+				<script type="text/javascript">
+		      $(document).ready(function() {
+		        $(".fancybox").fancybox();
+		      });
+		    </script>
+
+
+						<!-- fancybox 前導程式 start-->
+				    <script>
+				    //<![CDATA[
+				      $(function () {
+				      $(".history_img .h_img_g").each(function() {
+				      var parent = $(this).parent();
+				      if (parent[0].tagName == "A") {
+				        parent.attr({
+				        "class": "fancybox",
+				        "rel": "gallery"
+				      });
+				      } else {
+				parent.wrap("<a class='fancybox' rel='gallery' href='" + $(this).attr("src") + "'></a>")
+				}
+				});
+				$(".fancybox").fancybox();
+				});
+				//]]>
+				</script>
+				<!-- fancybox 前導程式end, Designed By WFU BLOG -->
   </body>
 </html>
