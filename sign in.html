@@ -1,0 +1,77 @@
+ㄈ<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--RWD viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+  <!--js and css-->
+  <script src="./public/js/jquery.js"></script>
+  <link rel="stylesheet" href="./public/css/style.css">
+  <script src="./public/js/script.js"></script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <!--firebase-->
+<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+
+</head>
+<body>
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title"><a href="./index.html"><img src="public/img/LOGO.png" alt="ANEMI FAIR"></a></span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="./chat.html"><img src="public/img/chat.png" alt="message"></a>
+        <button id="logoutBtn" class = "mdl-navigation__link" type="button" name="button">log out</button>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <h1 class="mdl-layout-title abc"><a href ="update.html">profile</a></h1>
+    <nav class="mdl-navigation">
+      <img id="avatar" height="150px" width="150px" src="" alt=""/>
+      <h3  id = "userName"></h3>
+      email:<p id ="email" class="mdl-navigation__link"></p>
+      <!-- age:<p id ="age" class="mdl-navigation__link"></p>
+      occupation:<p id ="occupation" class="mdl-navigation__link"></p> -->
+      description:<p id ="description" class="mdl-navigation__link"></p>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="mdl-grid centered">
+      <div class="mdl-cell mdl-cell--12-col card">
+         <div class="slogan">
+           <h1>Sign In</h1>
+           <p>Sign in and learn more about the various exhibitions.</p>
+          </div>
+          <ul>
+            <li>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id ="loginEmail" />
+                <label class="mdl-textfield__label">email...</label>
+              </div>
+            </li>
+            <li>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="password" id ="loginPassword"/>
+                <label class="mdl-textfield__label">password...</label>
+              </div>
+            </li>
+            <li><label id ="loginLbl"></label></li>
+          </ul>
+         <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="button" id="loginBtn" name="button">login</button>
+        <button  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="button" id = "signupBtn" name="button">signup</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+</body>
+</html>

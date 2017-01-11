@@ -192,7 +192,7 @@ $(document).ready(function(){
     }
   );
   $("#chgicon6").click(function(){
-    $('html,body').animate({scrollTop: $('.img_ticket').offset().top},500);
+    $('html,body').animate({scrollTop: $('.p_ticket').offset().top},500);
   });
   $('#chgicon7').hover(
     function(){
@@ -415,6 +415,6 @@ $(document).ready(function(){
           }
         }
       }
-    }    
+    }
   });
 });

@@ -277,51 +277,96 @@ $(document).ready(function(){
           $('html,body').animate({scrollTop: $('.map').offset().top},500);
         }
         else {
-          if($('.history_9').offset().top<$('.img_down').offset().top){
-            $('html,body').animate({scrollTop: $('.history_9').offset().top},500);
+          if($('.history_17').offset().top<$('.img_down').offset().top){
+            $('html,body').animate({scrollTop: $('.history_17').offset().top},500);
           }
           else {
-            if($('.history_8').offset().top<$('.img_down').offset().top){
-              $('html,body').animate({scrollTop: $('.history_8').offset().top},500);
+            if($('.history_16').offset().top<$('.img_down').offset().top){
+              $('html,body').animate({scrollTop: $('.history_16').offset().top},500);
             }
             else {
-              if($('.history_7').offset().top<$('.img_down').offset().top){
-                $('html,body').animate({scrollTop: $('.history_7').offset().top},500);
+              if($('.history_15').offset().top<$('.img_down').offset().top){
+                $('html,body').animate({scrollTop: $('.history_15').offset().top},500);
               }
               else {
-                if($('.history_6').offset().top<$('.img_down').offset().top){
-                  $('html,body').animate({scrollTop: $('.history_6').offset().top},500);
+                if($('.history_14').offset().top<$('.img_down').offset().top){
+                  $('html,body').animate({scrollTop: $('.history_14').offset().top},500);
                 }
                 else {
-                  if($('.history_5').offset().top<$('.img_down').offset().top){
-                    $('html,body').animate({scrollTop: $('.history_5').offset().top},500);
+                  if($('.history_13').offset().top<$('.img_down').offset().top){
+                    $('html,body').animate({scrollTop: $('.history_13').offset().top},500);
                   }
                   else {
-                    if($('.history_4').offset().top<$('.img_down').offset().top){
-                      $('html,body').animate({scrollTop: $('.history_4').offset().top},500);
+                    if($('.history_12').offset().top<$('.img_down').offset().top){
+                      $('html,body').animate({scrollTop: $('.history_12').offset().top},500);
                     }
                     else {
-                      if($('.history_3').offset().top<$('.img_down').offset().top){
-                        $('html,body').animate({scrollTop: $('.history_3').offset().top},500);
+                      if($('.history_11').offset().top<$('.img_down').offset().top){
+                        $('html,body').animate({scrollTop: $('.history_11').offset().top},500);
                       }
-                      else{
-                        if($('.history_2').offset().top<$('.img_down').offset().top){
-                          $('html,body').animate({scrollTop: $('.history_2').offset().top},500);
+                      else {
+                        if($('.history_10').offset().top<$('.img_down').offset().top){
+                          $('html,body').animate({scrollTop: $('.history_10').offset().top},500);
                         }
-                        else{
-                          if ($('.history_1').offset().top<$('.img_down').offset().top) {
-                            $('html,body').animate({scrollTop: $('.history_1').offset().top},500);
+                        else {
+                          if($('.history_9').offset().top<$('.img_down').offset().top){
+                            $('html,body').animate({scrollTop: $('.history_9').offset().top},500);
                           }
                           else {
-                            if($('.history_title').offset().top<$('.img_down').offset().top){
-                              $('html,body').animate({scrollTop: $('.history_title').offset().top},500);
+                            if($('.history_8').offset().top<$('.img_down').offset().top){
+                              $('html,body').animate({scrollTop: $('.history_8').offset().top},500);
                             }
                             else {
-                              if($('.p_where').offset().top<$('.img_down').offset().top){
-                              $('html,body').animate({scrollTop: $('.p_where').offset().top},500);
+                              if($('.history_7').offset().top<$('.img_down').offset().top){
+                                $('html,body').animate({scrollTop: $('.history_7').offset().top},500);
                               }
-                              else{
-                                $('html,body').animate({scrollTop: $('.p_time').offset().top},500);
+                              else {
+                                if($('.history_6').offset().top<$('.img_down').offset().top){
+                                  $('html,body').animate({scrollTop: $('.history_6').offset().top},500);
+                                }
+                                else {
+                                  if($('.history_5').offset().top<$('.img_down').offset().top){
+                                    $('html,body').animate({scrollTop: $('.history_5').offset().top},500);
+                                  }
+                                  else {
+                                    if($('.history_4').offset().top<$('.img_down').offset().top){
+                                      $('html,body').animate({scrollTop: $('.history_4').offset().top},500);
+                                    }
+                                    else {
+                                      if($('.history_3').offset().top<$('.img_down').offset().top){
+                                        $('html,body').animate({scrollTop: $('.history_3').offset().top},500);
+                                      }
+                                      else{
+                                        if($('.history_2').offset().top<$('.img_down').offset().top){
+                                          $('html,body').animate({scrollTop: $('.history_2').offset().top},500);
+                                        }
+                                        else{
+                                          if ($('.history_1').offset().top<$('.img_down').offset().top) {
+                                            $('html,body').animate({scrollTop: $('.history_1').offset().top},500);
+                                          }
+                                          else {
+                                            if($('.balloon').offset().top<$('.img_down').offset().top){
+                                              $('html,body').animate({scrollTop: $('.balloon').offset().top},500);
+                                            }
+                                            else {
+                                              if($('.history_title').offset().top<$('.img_down').offset().top){
+                                                $('html,body').animate({scrollTop: $('.history_title').offset().top},500);
+                                              }
+                                              else {
+                                                if($('.p_where').offset().top<$('.img_down').offset().top){
+                                                $('html,body').animate({scrollTop: $('.p_where').offset().top},500);
+                                                }
+                                                else{
+                                                  $('html,body').animate({scrollTop: $('.p_time').offset().top},500);
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
                               }
                             }
                           }

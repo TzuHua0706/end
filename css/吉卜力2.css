@@ -1,0 +1,2467 @@
+.click{
+  position: absolute;
+  width: 7vw;
+  margin: 1.5vw 0 0 80vw;
+  animation: click 1.5s infinite linear;
+}
+@keyframes click {
+  0%{
+    margin:1.5vw 0 0 80vw;
+    transform: rotate(0deg);
+  }
+  25%{
+    margin: 0.5vw 0 0 83vw;
+    transform: rotate(20deg);
+  }
+  50%{
+    margin: 1.5vw 0 0 80vw;
+    transform: rotate(0deg);
+  }
+  75%{
+    margin: 0.5vw 0 0 77vw;
+    transform: rotate(-20deg);
+  }
+  100%{
+    margin: 1.5vw 0 0 80vw;
+    transform: rotate(0deg);
+  }
+}
+.img_go{
+  opacity: 0;
+}
+.img_op1{
+  opacity: 1;
+  animation-name: img_op1;
+  animation-duration: 50s;
+}
+.img_op2{
+  opacity: 1;
+  animation-name: img_op2;
+  animation-duration: 50s;
+}
+.img_op3{
+  opacity: 1;
+  animation-name: img_op3;
+  animation-duration: 50s;
+}
+.img_op4{
+  opacity: 1;
+  animation-name: img_op4;
+  animation-duration: 50s;
+}
+.img_op5{
+  opacity: 1;
+  animation-name: img_op5;
+  animation-duration: 50s;
+}
+.img_op6{
+  opacity: 1;
+  animation-name: img_op6;
+  animation-duration: 50s;
+}
+.img_op7{
+  opacity: 1;
+  animation-name: img_op7;
+  animation-duration: 50s;
+}
+.img_op8{
+  opacity: 1;
+  animation-name: img_op8;
+  animation-duration: 50s;
+}
+.img_op9{
+  opacity: 1;
+  animation-name: img_op9;
+  animation-duration: 50s;
+}
+.img_op10{
+  opacity: 1;
+  animation-name: img_op10;
+  animation-duration: 50s;
+}
+.img_op11{
+  opacity: 1;
+  animation-name: img_op11;
+  animation-duration: 50s;
+}
+.img_op12{
+  opacity: 1;
+  animation-name: img_op12;
+  animation-duration: 50s;
+}
+.img_op13{
+  opacity: 1;
+  animation-name: img_op13;
+  animation-duration: 50s;
+}
+.img_op14{
+  opacity: 1;
+  animation-name: img_op14;
+  animation-duration: 50s;
+}
+.img_op15{
+  opacity: 1;
+  animation-name: img_op15;
+  animation-duration: 50s;
+}
+.img_op16{
+  opacity: 1;
+  animation-name: img_op16;
+  animation-duration: 50s;
+}
+.img_op17{
+  opacity: 1;
+  animation-name: img_op17;
+  animation-duration: 50s;
+}
+.img_op18{
+  opacity: 1;
+  animation-name: img_op18;
+  animation-duration: 50s;
+}
+.img_op19{
+  opacity: 1;
+  animation-name: img_op19;
+  animation-duration: 50s;
+}
+.img_op20{
+  opacity: 1;
+  animation-name: img_op20;
+  animation-duration: 50s;
+}
+.img_op21{
+  opacity: 1;
+  animation-name: img_op21;
+  animation-duration: 50s;
+}
+@keyframes img_op1 {
+  0%{
+    opacity: 0
+  }
+  7%{
+    opacity: 0
+  }
+  12%{
+    opacity: 1
+  }
+}
+@keyframes img_op2 {
+  0%{
+    opacity: 0
+  }
+  11%{
+    opacity: 0
+  }
+  16%{
+    opacity: 1
+  }
+}
+@keyframes img_op3 {
+  0%{
+    opacity: 0
+  }
+  15%{
+    opacity: 0
+  }
+  20%{
+    opacity: 1
+  }
+}
+@keyframes img_op4 {
+  0%{
+    opacity: 0
+  }
+  19%{
+    opacity: 0
+  }
+  24%{
+    opacity: 1
+  }
+}
+@keyframes img_op5 {
+  0%{
+    opacity: 0
+  }
+  23%{
+    opacity: 0
+  }
+  28%{
+    opacity: 1
+  }
+}
+@keyframes img_op6 {
+  0%{
+    opacity: 0
+  }
+  27%{
+    opacity: 0
+  }
+  32%{
+    opacity: 1
+  }
+}
+@keyframes img_op7 {
+  0%{
+    opacity: 0
+  }
+  31%{
+    opacity: 0
+  }
+  36%{
+    opacity: 1
+  }
+}
+@keyframes img_op8 {
+  0%{
+    opacity: 0
+  }
+  35%{
+    opacity: 0
+  }
+  40%{
+    opacity: 1
+  }
+}
+@keyframes img_op9 {
+  0%{
+    opacity: 0
+  }
+  39%{
+    opacity: 0
+  }
+  44%{
+    opacity: 1
+  }
+}
+@keyframes img_op10 {
+  0%{
+    opacity: 0
+  }
+  43%{
+    opacity: 0
+  }
+  48%{
+    opacity: 1
+  }
+}
+@keyframes img_op11 {
+  0%{
+    opacity: 0
+  }
+  47%{
+    opacity: 0
+  }
+  52%{
+    opacity: 1
+  }
+}
+@keyframes img_op12 {
+  0%{
+    opacity: 0
+  }
+  51%{
+    opacity: 0
+  }
+  56%{
+    opacity: 1
+  }
+}
+@keyframes img_op13 {
+  0%{
+    opacity: 0
+  }
+  55%{
+    opacity: 0
+  }
+  60%{
+    opacity: 1
+  }
+}
+@keyframes img_op14 {
+  0%{
+    opacity: 0
+  }
+  59%{
+    opacity: 0
+  }
+  64%{
+    opacity: 1
+  }
+}
+@keyframes img_op15 {
+  0%{
+    opacity: 0
+  }
+  63%{
+    opacity: 0
+  }
+  68%{
+    opacity: 1
+  }
+}
+@keyframes img_op16 {
+  0%{
+    opacity: 0
+  }
+  67%{
+    opacity: 0
+  }
+  72%{
+    opacity: 1
+  }
+}
+@keyframes img_op17 {
+  0%{
+    opacity: 0
+  }
+  71%{
+    opacity: 0
+  }
+  76%{
+    opacity: 1
+  }
+}
+@keyframes img_op18 {
+  0%{
+    opacity: 0
+  }
+  75%{
+    opacity: 0
+  }
+  80%{
+    opacity: 1
+  }
+}
+@keyframes img_op19 {
+  0%{
+    opacity: 0
+  }
+  79%{
+    opacity: 0
+  }
+  84%{
+    opacity: 1
+  }
+}
+@keyframes img_op20 {
+  0%{
+    opacity: 0
+  }
+  83%{
+    opacity: 0
+  }
+  88%{
+    opacity: 1
+  }
+}
+@keyframes img_op21 {
+  0%{
+    opacity: 0
+  }
+  87%{
+    opacity: 0
+  }
+  92%{
+    opacity: 1
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .st{
+    cursor:pointer;
+    position: absolute;
+    margin: 5vw 0 0 70vw;
+    width: 17vw;
+    z-index: 1;
+  }
+  .go{
+    display: block;
+    position: absolute;
+      margin: 182vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    animation-name: go;
+    animation-duration: 50s;
+    z-index: 2;
+  }
+  .go_c{
+    display: block;
+    position: absolute;
+      margin: 58vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    z-index: 2;
+  }
+  @keyframes go {
+    0%{
+      margin: 13vw 0 0 80vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    4%{
+      margin: 3vw 0 0 70vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    7%{
+      margin: 17vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    8%{
+      margin: 26vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    9%{
+      margin: 26vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    11%{
+      margin: 35vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    12%{
+      margin: 44vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    13%{
+      margin: 44vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    15%{
+      margin: 54vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    16%{
+      margin: 64vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    17%{
+      margin: 64vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    19%{
+      margin: 76vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    20%{
+      margin: 85vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    21%{
+      margin: 85vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+
+    }
+    23%{
+      margin: 97vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    24%{
+      margin: 106vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    25%{
+      margin: 106vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    27%{
+      margin: 118vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    28%{
+      margin: 127vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    29%{
+      margin: 127vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    31%{
+      margin: 139vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    32%{
+      margin: 148vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    33%{
+      margin: 148vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    35%{
+      margin: 160vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    36%{
+      margin: 169vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    37%{
+      margin: 169vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    39%{
+      margin: 181vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    40%{
+      margin: 190vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    41%{
+      margin: 190vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    43%{
+      margin: 202vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    44%{
+      margin: 211vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    45%{
+      margin: 211vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    47%{
+      margin: 223vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    48%{
+      margin: 232vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    49%{
+      margin: 232vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    51%{
+      margin: 244vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    52%{
+      margin: 2563vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    53%{
+      margin: 253vw 0 0 85vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    55%{
+      margin: 265vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    56%{
+      margin: 274vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    57%{
+      margin: 274vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    59%{
+      margin: 286vw 0 0 79vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    60%{
+      margin: 295vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    61%{
+      margin: 295vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    63%{
+      margin: 307vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    64%{
+      margin: 316vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    65%{
+      margin: 316vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    67%{
+      margin: 328vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    68%{
+      margin: 337vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    69%{
+      margin: 337vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    71%{
+      margin: 349vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    72%{
+      margin: 358vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    73%{
+      margin: 358vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    75%{
+      margin: 370vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    76%{
+      margin: 379vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    77%{
+      margin: 379vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    79%{
+      margin: 391vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    80%{
+      margin: 400vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    81%{
+      margin: 400vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    83%{
+      margin: 412vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    84%{
+      margin: 421vw 0 0 85vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    85%{
+      margin: 421vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    87%{
+      margin: 433vw 0 0 14vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    88%{
+      margin: 442vw 0 0 13vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    89%{
+      margin: 442vw 0 0 13vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    91%{
+      margin: 454vw 0 0 69vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+  }
+}
+@media only screen and (max-width: 768px){
+  .st{
+    cursor:pointer;
+    position: absolute;
+    margin: 5vw 0 0 67vw;
+    width: 17vw;
+    z-index: 1;
+  }
+  .go{
+    display: block;
+    position: absolute;
+    margin: 373vw 0 0 63vw;
+    width: 17vw;
+    -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+    animation-name: go;
+    animation-duration: 50s;
+    z-index: 2;
+  }
+  .go_c{
+    display: block;
+    position: absolute;
+    margin: 13vw 0 0 77vw;
+    width: 0vw;
+    -moz-transform: scaleX(1);
+          -o-transform: scaleX(1);
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+          filter: FlipH;
+          -ms-filter: "FlipH";
+    z-index: 2;
+  }
+  @keyframes go {
+    0%{
+      margin: 13vw 0 0 77vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    4%{
+      margin: 3vw 0 0 67vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    7%{
+      margin: 16vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    8%{
+      margin: 25vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    9%{
+      margin: 25vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    11%{
+      margin: 33vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    12%{
+      margin: 42vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    13%{
+      margin: 42vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    15%{
+      margin: 50vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    16%{
+      margin: 59vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    17%{
+      margin: 59vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    19%{
+      margin: 67vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    20%{
+      margin: 76vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    21%{
+      margin: 76vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+
+    }
+    23%{
+      margin: 84vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    24%{
+      margin: 93vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    25%{
+      margin: 93vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    27%{
+      margin: 101vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    28%{
+      margin: 110vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    29%{
+      margin: 110vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    31%{
+      margin: 118vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    32%{
+      margin: 127vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    33%{
+      margin: 127vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    35%{
+      margin: 135vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    36%{
+      margin: 144vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    37%{
+      margin: 144vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    39%{
+      margin: 152vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    40%{
+      margin: 161vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    41%{
+      margin: 161vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    43%{
+      margin: 169vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    44%{
+      margin: 178vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    45%{
+      margin: 178vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    47%{
+      margin: 186vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    48%{
+      margin: 195vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    49%{
+      margin: 195vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    51%{
+      margin: 203vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    52%{
+      margin: 212vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    53%{
+      margin: 212vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    55%{
+      margin: 220vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    56%{
+      margin: 229vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    57%{
+      margin: 229vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    59%{
+      margin: 237vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    60%{
+      margin: 246vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    61%{
+      margin: 246vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    63%{
+      margin: 254vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    64%{
+      margin: 263vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    65%{
+      margin: 263vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    67%{
+      margin: 271vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    68%{
+      margin: 280vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    69%{
+      margin: 280vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    71%{
+      margin: 288vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    72%{
+      margin: 297vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    73%{
+      margin: 297vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    75%{
+      margin: 305vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    76%{
+      margin: 314vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    77%{
+      margin: 314vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    79%{
+      margin: 322vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    80%{
+      margin: 331vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    81%{
+      margin: 331vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    83%{
+      margin: 339vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    84%{
+      margin: 348vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    85%{
+      margin: 348vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    87%{
+      margin: 356vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    88%{
+      margin: 365vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    89%{
+      margin: 365vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    91%{
+      margin: 373vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+  }
+}
+@media only screen and (min-width: 1280px){
+  .st{
+    cursor:pointer;
+    position: absolute;
+    margin: 5vw 0 0 67vw;
+    width: 17vw;
+    z-index: 1;
+  }
+  .go{
+    display: block;
+    position: absolute;
+    margin: 373vw 0 0 63vw;
+    width: 17vw;
+    -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH";
+    animation-name: go;
+    animation-duration: 50s;
+    z-index: 2;
+  }
+  .go_c{
+    display: block;
+    position: absolute;
+    margin: 13vw 0 0 77vw;
+    width: 0vw;
+    -moz-transform: scaleX(1);
+          -o-transform: scaleX(1);
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+          filter: FlipH;
+          -ms-filter: "FlipH";
+    z-index: 2;
+  }
+  @keyframes go {
+    0%{
+      margin: 13vw 0 0 77vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    4%{
+      margin: 3vw 0 0 67vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    7%{
+      margin: 16vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    8%{
+      margin: 25vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    9%{
+      margin: 25vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    11%{
+      margin: 33vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    12%{
+      margin: 42vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    13%{
+      margin: 42vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    15%{
+      margin: 50vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    16%{
+      margin: 59vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    17%{
+      margin: 59vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    19%{
+      margin: 67vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    20%{
+      margin: 76vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    21%{
+      margin: 76vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+
+    }
+    23%{
+      margin: 84vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    24%{
+      margin: 93vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    25%{
+      margin: 93vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    27%{
+      margin: 101vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    28%{
+      margin: 110vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    29%{
+      margin: 110vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    31%{
+      margin: 118vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    32%{
+      margin: 127vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    33%{
+      margin: 127vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    35%{
+      margin: 135vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    36%{
+      margin: 144vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    37%{
+      margin: 144vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    39%{
+      margin: 152vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    40%{
+      margin: 161vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    41%{
+      margin: 161vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    43%{
+      margin: 169vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    44%{
+      margin: 178vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    45%{
+      margin: 178vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    47%{
+      margin: 186vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    48%{
+      margin: 195vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    49%{
+      margin: 195vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    51%{
+      margin: 203vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    52%{
+      margin: 212vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    53%{
+      margin: 212vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    55%{
+      margin: 220vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    56%{
+      margin: 229vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    57%{
+      margin: 229vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    59%{
+      margin: 237vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    60%{
+      margin: 246vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    61%{
+      margin: 246vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    63%{
+      margin: 254vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    64%{
+      margin: 263vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    65%{
+      margin: 263vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    67%{
+      margin: 271vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    68%{
+      margin: 280vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    69%{
+      margin: 280vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    71%{
+      margin: 288vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    72%{
+      margin: 297vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    73%{
+      margin: 297vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    75%{
+      margin: 305vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    76%{
+      margin: 314vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    77%{
+      margin: 314vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    79%{
+      margin: 322vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    80%{
+      margin: 331vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    81%{
+      margin: 331vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    83%{
+      margin: 339vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    84%{
+      margin: 348vw 0 0 79vw;
+      width: 0vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    85%{
+      margin: 348vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    87%{
+      margin: 356vw 0 0 20vw;
+      width: 17vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    88%{
+      margin: 365vw 0 0 19vw;
+      width: 0vw;
+      -moz-transform: scaleX(1);
+            -o-transform: scaleX(1);
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    89%{
+      margin: 365vw 0 0 19vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+    91%{
+      margin: 373vw 0 0 63vw;
+      width: 17vw;
+      -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+    }
+  }
+}

@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1280px){
+  .fb_iframe_widget{
+    margin-left:25vw!important;
+    margin-bottom:10vw!important;
+  }
   .myMOUSE {
       cursor:pointer;
   }
@@ -31,7 +35,7 @@
   }
   .bs{
     position: fixed;
-    margin: 25vh 0 0 0.8vw;
+    margin: 25vh 0 0 0.4vw;
     width: 5vw;
   }
   .b_p{
@@ -41,7 +45,7 @@
   }
   .b_animation{
     position: fixed;
-    margin: 25vh 0 0 1vw;
+    margin: 25vh 0 0 1.2vw;
     width: 30vw;
     animation-name: b_p;
     animation-duration: 1s;
@@ -58,19 +62,19 @@
       margin-left: -30vw;
     }
     100%{
-      margin-left: 1vw;
+      margin-left: 1.2vw;
     }
   }
   @keyframes b_p_2 {
     0%{
-      margin-left: 1vw;
+      margin-left: 1.2vw;
     }
     100%{
       margin-left: -30vw;
     }
   }
   .b_p_p{
-    margin: 3.2vw 0vw 0 0vw;
+    margin: 2.2vw 0vw 0 0vw;
     text-align: right;
     padding:0.05vw 1vw 0.05vw 0;
     font-size: 2vw;
@@ -80,18 +84,18 @@
     font-family:Microsoft JhengHei;
   }
   .b{
-    width: 5vw;
+    width: 4vw;
     float: left;
     margin: 1vw 0 0 0;
   }
    .b_2{
-     width: 6.5vw;
+     width: 5vw;
      float: left;
      margin: 1vw 0 0 -0.25vw;;
    }
   .shadow{
-    height: 30.3vw;
-    width: 37vw;
+    height: 29.3vw;
+    width: 35vw;
     position: absolute;
     opacity: 0.5;
     margin:10vw 0 0 0vw;
@@ -104,10 +108,10 @@
   }
   .shadow_2{
     position: absolute;
-    height: 30.3vw;
-    width: 37vw;
+    height: 29.3vw;
+    width: 35vw;
     opacity: 0.5;
-    margin: 50.3vw 0 0 3.55vw;
+    margin: 49.3vw 0 0 5vw;
     transform: rotate(0deg);
   }
   .img_look{
@@ -188,8 +192,8 @@
   }
   .img_time{
     float: left;
-    padding: 10vw 0 0 3.7vw;
-    width: 54.8vw;
+    padding: 10vw 0 0 5vw;
+    width: 53vw;
   }
   .p_time{
     cursor: default;
@@ -223,9 +227,9 @@
     font-size: 1.5vw;
   }
   .img_where{
-    padding: 10vw 3.7vw 0vw 0;
-    width: 54.8vw;
-    height: 30.3vw;
+    padding: 10vw 5vw 0vw 0;
+    width: 53vw;
+    height: 29.1vw;
     float: right;
   }
   .p_where{
@@ -268,10 +272,6 @@
   .p_where_3{
     margin-right: 4vw;
   }
-  .go{
-    position: fixed;
-    left: 65vw;
-  }
   .history{
     margin-bottom:5vw;
   }
@@ -311,11 +311,12 @@
     margin: 4vw 0 0 2vw;
   }
   .map{
-    margin-left: 3.7vw;
-    width: 91.5vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    width: 88vw;
   }
   .img_ticket{
-    margin-left: 3.7vw;
+    margin-left: 5vw;
     margin-top: 10vw;
     width: 30vw;
     margin-bottom: 10vw;
@@ -365,7 +366,7 @@
     position: absolute;
     margin: 10vw 0 0 33.71vw;
     height: 51.35vw;
-    width: 61.5vw;
+    width: 59.5vw;
     opacity: 0.5;
   }
   footer{
@@ -393,6 +394,10 @@
   }
 }
 @media only screen and (max-width: 768px){
+  .fb_iframe_widget{
+    margin-left:25vw!important;
+    margin-bottom:10vw!important;
+  }
   .myMOUSE {
       cursor:pointer;
   }
@@ -426,7 +431,7 @@
   }
   .bs{
     position: fixed;
-    margin: 25vh 0 0 0.8vw;
+    margin: 25vh 0 0 0.4vw;
     width: 5vw;
   }
   .b_p{
@@ -562,15 +567,15 @@
   }
   .img_time{
     float:none;
-    padding: 10vw 0 0 5vw;
-    width: 88vw;
+    padding: 10vw 0 0 6vw;
+    width: 86vw;
   }
   .shadow_2{
    position: absolute;
-   height: 88vw;
+   height: 86vw;
    width: 43vw;
    opacity: 0.5;
-   margin: 36.2vw 0 0 27.5vw;
+   margin: 36vw 0 0 27.5vw;
    transform: rotate(270deg);
   }
   .p_time{
@@ -607,8 +612,8 @@
   .img_where{
     height: 49vw;
     float: none;
-    padding: 10vw 0 0 5vw;
-    width: 88vw;
+    padding: 10vw 0 0 6vw;
+    width: 86vw;
   }
   .shadow{
   	display: none;
@@ -622,11 +627,10 @@
   .shadow_d{
     display: block;
    height: 22vw;
-   width: 88vw;
+   width: 86vw;
    position: absolute;
    opacity: 0.5;
-   margin:59vw 0vw 0vw 5vw;
-   transform: rotate(0deg);
+   margin:59vw 0vw 0vw 6vw;
   }
   .p_where{
     position: absolute;
@@ -678,11 +682,6 @@
   .p_where_3{
     margin-right: 4vw;
   }
-  .go{
-    position: fixed;
-    left: 65vw;
-  	display: none;
-  }
   .history{
     margin-bottom:5vw;
   }
@@ -722,8 +721,9 @@
     margin: 4vw 0 0 2vw;
   }
   .map{
-    margin-left: 5vw;
-    width: 88vw;
+    margin-top: 5vw;
+    margin-left: 6vw;
+    width: 86vw;
   }
   .img_ticket{
   	display: none;
@@ -733,15 +733,15 @@
   }
   .img_ticket2{
     display: block;
-    margin-left: 5vw;
+    margin-left: 6vw;
     margin-top: 10vw;
-  	width: 88vw;
+  	width: 86vw;
   }
   .p_ticket{
     position: absolute;
     z-index: 1;
     margin-left: 13vw;
-    padding-top: 35vw;
+    padding-top: 32vw;
     font-family:Microsoft JhengHei;
     font-weight:bold;
   }
@@ -784,9 +784,9 @@
   .shadow_d_2{
     display: block;
     position: absolute;
-    margin: 37.2vw 0 0 5vw;
+    margin: 36vw 0 0 6vw;
     height: 51.35vw;
-    width: 88vw;
+    width: 86vw;
     opacity: 0.5;
   }
   .shadow_3{
@@ -822,6 +822,10 @@
   }
 }
 @media only screen and (min-width: 1280px){
+  .fb_iframe_widget{
+    margin-left:25vw!important;
+    margin-bottom:10vw!important;
+  }
 .myMOUSE {
     cursor:pointer;
 }
@@ -1104,10 +1108,6 @@ li{
 .p_where_3{
   margin-right: 4vw;
 }
-.go{
-  position: fixed;
-  left: 65vw;
-}
 .history{
   margin-bottom:5vw;
 }
@@ -1147,6 +1147,7 @@ li{
   margin: 2vw 0 0 16vw;
 }
 .map{
+  margin-top: 5vw;
   margin-left: 3.7vw;
   width: 91.5vw;
 }
@@ -1163,30 +1164,33 @@ li{
   position: absolute;
   z-index: 1;
   margin-left: 33.7vw;
-  padding-top: 10vw;
+  padding-top: 0vw;
+  margin-top: 10vw;
   font-family:Microsoft JhengHei;
   font-weight:bold;
+  width: 55vw;
 }
 .p_ticket_2{
   display: none;
 }
 .big_ticket{
-  margin: 7vw 0 0 5vw;
-  font-size:3vw;
+  margin: 10vw 0 0 5vw;
+  font-size:2.5vw;
 }
 .m_ticket{
   margin: 1vw 0 0 8vw;
-  font-size:2vw;
+  font-size:1.5vw;
 }
 .m_ticket_r{
   margin-left: 12vw;
+  font-size: 1.3vw
 }
 .s_ticket{
   margin: 2vw 0 0 5vw;
-  font-size:1.8vw;
+  font-size:1.5vw;
 }
 .go_ticket{
-  font-size:3vw;
+  font-size:2.5vw;
   margin: 1.5vw 0 0 35vw;
   padding: 0.6vw 4.8vw;
   background-color:  rgb(129,81,26);

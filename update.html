@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!--RWD viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Profile Edit</title>
+  <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+  <!--js and css-->
+  <script src="./public/js/jquery.js"></script>
+  <link rel="stylesheet" href="./public/css/style.css">
+  <script src="./public/js/script.js"></script>
+
+  <!--firebase-->
+  <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+
+</head>
+<body>
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title"><a href="./index.html"><a href="./index.html"><img src="public/img/LOGO.png" alt="ANEMI FAIR"></a></span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="./chat.html"><img src="public/img/chat.png" alt="message"></a>
+        <button id="logoutBtn" class = "mdl-navigation__link" type="button" name="button">log out</button>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title abc"><a href ="update.html">profile</a></span>
+    <nav class="mdl-navigation">
+      <img id="avatar" height="150px" width="150px" src="" alt=""/>
+      <h1  id = "userName" class="mdl-navigation__link"></h1>
+      email:<p id ="email" class="mdl-navigation__link"></p>
+      <!-- age:<p id ="age" class="mdl-navigation__link"></p>
+      occupation:<p id ="occupation" class="mdl-navigation__link"></p> -->
+      description:<p id ="description" class="mdl-navigation__link"></p>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--12-col card clearfix">
+        <div class="mdl-cell--6-col fleft">
+          <h1>Profile Edit</h1>
+          <ul class="edit">
+            <li><label id ='loginState'></label></li>
+            <li>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id = "editName" />
+                <label class="mdl-textfield__label" for="sample3">username...</label>
+              </div>
+            </li>
+            <!-- <li>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id ="editOccupation" />
+                <label class="mdl-textfield__label" for="sample3">favorite anime...</label>
+              </div>
+            </li>
+            <li>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="number" id ="editAge" />
+                <label class="mdl-textfield__label" for="sample3">favorite anime main character...</label>
+              </div>
+            </li> -->
+            <li>
+              <div class="mdl-textfield mdl-js-textfield">
+                <textarea class="mdl-textfield__input"  type="text" id = "editDesciption" rows ="4" cols = "35"></textarea>
+                <label class="mdl-textfield__label" for="sample5">type some description here...</label>
+              </div>
+            </li>
+            <li><input type="file" id ="editAvatar"/></li>
+            <li><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" type="button" id = "editBtn" name="button">Submit</button></li>
+          </ul>
+        </div>
+        <div class="mdl-cell--6-col fright">
+          <img id="preview" height="auto" width="100%" src="" alt=""/>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+</body>
+</html>

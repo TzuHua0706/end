@@ -1,9 +1,7 @@
 $(document).ready(function(){
-  $(".balloon").click(function () {
-    $("#man").addClass('man_c');
-    $("#man").removeClass('man');
-    $("#line").addClass('line');
-    $("#line").removeClass('line_click');
+  $("#st").click(function () {
+    $("#go").addClass('go');
+    $("#go").removeClass('go_c');
     $(".history_1").addClass('img_op1');
     $(".history_2").addClass('img_op2');
     $(".history_3").addClass('img_op3');
@@ -21,5 +19,9 @@ $(document).ready(function(){
     $(".history_15").addClass('img_op15');
     $(".history_16").addClass('img_op16');
     $(".history_17").addClass('img_op17');
+    $(".history_18").addClass('img_op18');
+    $(".history_19").addClass('img_op19');
+    $(".history_20").addClass('img_op20');
+    $(".history_21").addClass('img_op21');
   });
 });

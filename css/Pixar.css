@@ -1,4 +1,8 @@
 @media only screen and (max-width: 1280px){
+  .fb_iframe_widget{
+    margin-left:25vw!important;
+    margin-bottom:10vw!important;
+  }
   .myMOUSE {
       cursor:pointer;
   }
@@ -17,7 +21,7 @@
   }
   .bs{
     position: fixed;
-    margin: 25vh 0 0 0.8vw;
+    margin: 25vh 0 0 0vw;
     width: 5vw;
   }
   .b_p{
@@ -168,16 +172,16 @@
   }
   .img_time{
     float: left;
-    margin: 9.5vw 0 0 3.7vw;
-    width: 54.8vw;
+    margin: 9.5vw 0 0 5vw;
+    width: 53vw;
   }
   .shadow_2{
     display: block;
     position: absolute;
-    height: 30.3vw;
-    width: 37vw;
+    height: 29.3vw;
+    width: 35vw;
     opacity: 0.5;
-    margin: 50vw 0 0 3.55vw;
+    margin: 48.8vw 0 0 5vw;
     transform: rotate(0deg);
   }
   .shadow_d{
@@ -186,10 +190,10 @@
   .p_time{
     cursor: default;
     float: right;
-    padding: 10.5vw 5.5vw 0 0;
+    padding: 10.5vw 7vw 0 0;
     font-family:Microsoft JhengHei;
     font-weight:bold;
-    width: 33.5vw;
+    width: 30vw;
   }
   .p_time_up{
     font-size: 2vw;
@@ -204,21 +208,21 @@
     float: right;
   }
    .p_time_down{
-     margin: 10.5vw 0 0 6vw;
+     margin: 9vw 0 0 0vw;
      font-size: 1.5vw;
    }
   .p_time_d{
-    margin: 1vw 0 0 0;
+    margin: 0.5vw 0 0 0;
   }
   .img_where{
-    margin: 10vw 3.7vw 0vw 0;
-    width: 54.8vw;
-    height: 30.3vw;
+    margin: 10vw 5vw 0vw 0;
+    width: 53vw;
+    height: 29.3vw;
     float: right;
   }
   .shadow{
-    height: 30.5vw;
-    width: 37vw;
+    height: 29.5vw;
+    width: 35vw;
     position: absolute;
     opacity: 0.5;
     margin:9.5vw 0 0 0vw;
@@ -226,7 +230,7 @@
   .p_where{
     cursor: default;
     float: left;
-    padding: 18vw 0 0 8vw;
+    padding: 18vw 0 0 10vw;
     margin-top: 0vw;
     font-size: 2vw;
     font-family:Microsoft JhengHei;
@@ -334,12 +338,12 @@
   }
   .history_p_l{
     float: none;
-    margin: 0vw 0 0 -41vw;
+    margin: 0vw 0 0 -42vw;
     padding-top: 1vw;
   }
   .img_line_p{
     position: absolute;
-    background-color: black;
+    background-color: white;
     height: 2px;
     width: 8.5vw;
     margin: 4vw 0 0 2vw;
@@ -347,18 +351,19 @@
   }
   .p_line_img{
     position: absolute;
-    background-color: black;
+    background-color: white;
     height: 2px;
     width: 8.5vw;
-    margin: 15.5vw 0 0 43vw;
     z-index: -1;
+    margin: 3vw 0 0 -4vw;
   }
   .map{
-    margin-left: 3.7vw;
-    width: 91.5vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    width: 88vw;
   }
   .t_back{
-    margin: 10vw 0 10vw 3.7vw;
+    margin: 10vw 0 10vw 5vw;
     width: 30vw;
     height: 51.35vw;
     background-color:black;
@@ -377,7 +382,7 @@
   .p_ticket{
     position: absolute;
     z-index: 1;
-    margin-left: 33.7vw;
+    margin-left: 32.7vw;
     font-family:Microsoft JhengHei;
     font-weight:bold;
     width: 57vw;
@@ -416,9 +421,9 @@
   .shadow_3{
     display: block;
     position: absolute;
-    margin: 0vw 0 0 33.71vw;
+    margin: 0vw 0 0 34.8vw;
     height: 51.35vw;
-    width: 61.5vw;
+    width: 58vw;
     opacity: 0.5;
   }
   .shadow_d_2{
@@ -453,6 +458,10 @@
   }
 }
 @media only screen and (max-width: 768px){
+  .fb_iframe_widget{
+    margin-left:25vw!important;
+    margin-bottom:10vw!important;
+  }
   .myMOUSE {
       cursor:pointer;
   }
@@ -471,7 +480,7 @@
   }
   .bs{
     position: fixed;
-    margin: 25vh 0 0 0.8vw;
+    margin: 25vh 0 0 0vw;
     width: 5vw;
   }
   .b_p{
@@ -622,12 +631,12 @@
   }
   .img_time{
     float: none;;
-    margin: 10vw 0 0 5vw;
-    width: 88vw;
+    margin: 10vw 0 0 6vw;
+    width: 86vw;
   }
   .shadow_2{
    position: absolute;
-   height: 88vw;
+   height: 86vw;
    width: 45vw;
    opacity: 0.5;
    margin: 37.2vw 0 0 26.5vw;
@@ -665,8 +674,8 @@
   .img_where{
     height: 49vw;
     float: none;
-    padding: 10vw 0 0 5vw;
-    width: 88vw;
+    padding: 10vw 0 0 6vw;
+    width: 86vw;
     margin: 0;
   }
   .shadow{
@@ -681,10 +690,10 @@
   .shadow_d{
    display: block;
    height: 22vw;
-   width: 88vw;
+   width: 86vw;
    position: absolute;
    opacity: 0.5;
-   margin:59vw 0vw 0vw 5vw;
+   margin:59vw 0vw 0vw 6vw;
    transform: rotate(0deg);
   }
   .p_where{
@@ -809,12 +818,12 @@
   }
   .history_p_l{
     float: none;
-    margin: 2vw 0 0 -40vw;
+    margin: 2vw 0 0 -41vw;
     padding-top: 1vw;
   }
   .img_line_p{
     position: absolute;
-    background-color: black;
+    background-color: white;
     height: 2px;
     width: 8.5vw;
     margin: 5vw 0 0 4vw;
@@ -822,15 +831,15 @@
   }
   .p_line_img{
     position: absolute;
-    background-color: black;
+    background-color: white;
     height: 2px;
     width: 8.5vw;
-    margin: 17vw 0 0 42vw;
+    margin: 5vw 0 0 -3vw;
     z-index: -1;
   }
   .map{
-    margin-left: 5vw;
-    width: 88vw;
+    margin-left: 6vw;
+    width: 86vw;
   }
   .t_back{
     display: none;
@@ -841,13 +850,13 @@
   }
   .img_ticket{
     display: none;
-    margin-left: 7vw;
+    margin-left: 5vw;
     width: 15.7vw;
   }
   .img_ticket2{
     display: block;
-    margin: 10vw 0 0 5vw;
-    width: 88vw;
+    margin: 10vw 0 0 6vw;
+    width: 86vw;
   }
   .p_ticket{
     position: absolute;
@@ -902,9 +911,9 @@
   .shadow_d_2{
     display: block;
     position: absolute;
-    margin: 36vw 0 0 5vw;
+    margin: 35vw 0 0 6vw;
     height: 55vw;
-    width: 88vw;
+    width: 86vw;
     opacity: 0.5;
   }
   footer{
@@ -932,6 +941,10 @@
   }
 }
 @media only screen and (min-width: 1280px){
+  .fb_iframe_widget{
+    margin-left:25vw!important;
+    margin-bottom:10vw!important;
+  }
   .myMOUSE {
       cursor:pointer;
   }
@@ -1145,7 +1158,7 @@
     margin: 1vw 0 0 0;
   }
   .img_where{
-    margin: 10vw 3.7vw 4vw 0;
+    margin: 10vw 3.7vw 0vw 0;
     width: 54.8vw;
     height: 30.3vw;
     float: right;
@@ -1181,7 +1194,7 @@
   .history_title{
     margin: 0;
     cursor: default;
-    padding: 5vw 0 3vw 0;
+    padding: 9vw 0 3vw 0;
     text-align: center;
     color: white;
     font-family:Microsoft JhengHei;
@@ -1193,8 +1206,8 @@
     width: 33vw;
   }
   .line{
-    width: 4px;
-    height: 0vw;
+    width: 3px;
+    height: 3vw;
     margin: 19.5vw 0 0 49.6vw;
     position: absolute;
     background-color: black;
@@ -1211,28 +1224,8 @@
      height: 230vw;
     }
   }
-  .man{
-    display: none;
-    position: fixed;
-    margin: 15vw 0 0 42vw;
-    /*position: absolute;
-    margin: 12.5vw 0 0 42vw;*/
-    z-index: 7;
-    width: 17vw;
-  /*  animation: man  10s infinite;*/
-  /*  animation-name: man;
-    animation-duration:10s;*/
-  }
   .block{
     display: block;
-  }
-  @keyframes man {
-    0%{
-     margin: 12.5vw 0 0 42vw;
-    }
-    100%{
-     margin: 238vw 0 0 42vw;
-    }
   }
   .right_one{
     margin: 7vw 0 0 46.5vw;
@@ -1264,7 +1257,7 @@
     height: 3vw;
   }
   .history_p_r{
-    margin: 1.5vw 0 0 7vw;
+    margin: 1.5vw 0 0 5vw;
   }
   .history_p_l{
     float: none;
@@ -1273,21 +1266,22 @@
   }
   .img_line_p{
     position: absolute;
-    background-color: black;
-    height: 4px;
+    background-color: white;
+    height: 3px;
     width: 8.5vw;
-    margin: 3vw 0 0 4vw;
+    margin: 3vw 0 0 2vw;
     z-index: -1;
   }
   .p_line_img{
     position: absolute;
-    background-color: black;
-    height: 4px;
+    background-color: white;
+    height: 3px;
     width: 8.5vw;
-    margin: 10vw 0 0 42vw;
+    margin: 3vw 0 0 -4.5vw;
     z-index: -1;
   }
   .map{
+    margin-top: 5vw;
     margin-left: 3.7vw;
     width: 91.5vw;
   }
@@ -1326,7 +1320,7 @@
     margin-left: 33.7vw;
     font-family:Microsoft JhengHei;
     font-weight:bold;
-    width: 57vw;
+    width: 55vw;
   }
   .p_ticket_2{
     display: none;
@@ -1337,23 +1331,23 @@
     font-weight:bold;
   }
   .big_ticket{
-    margin: 4vw 0 0 5vw;
-    font-size:3vw;
+    margin: 7vw 0 0 5vw;
+    font-size:2.5vw;
   }
   .m_ticket{
     margin: 1vw 0 0 8vw;
-    font-size:2vw;
+    font-size:1.5vw;
   }
   .m_ticket_r{
     margin-left: 12vw;
-    font-size:1.5vw;
+    font-size:1.3vw;
   }
   .s_ticket{
     margin: 2vw 0 0 5vw;
     font-size:1.8vw;
   }
   .go_ticket{
-    font-size:3vw;
+    font-size:2.5vw;
     margin: 4vw 0 0 35vw;
     padding: 0.6vw 4.8vw;
     background-color:  rgb(0,90,131);
