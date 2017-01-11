@@ -1,3 +1,827 @@
+@media only screen and (max-width: 1280px){
+  .myMOUSE {
+      cursor:pointer;
+  }
+  .clear{
+    clear: both;
+  }
+  html{
+    background-image: url(../mockup等/吉卜力網站視覺圖.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+  }
+  body{
+    margin: 0;
+    background-color: rgb(135,175,76);
+  }
+  header{
+    margin: 0;
+    width: 100vw;
+  }
+  .gsc-control-cse {
+   position: absolute;
+   padding: 0em!important;
+   width: 40vw!important;
+   height: auto;
+   border: 0px!important;
+   padding: 0px!important;
+   background-color:rgba(0,0,0,0)!important;
+   margin-left: 2vw!important;
+   margin-top: 2vw!important;
+  }
+  .bs{
+    position: fixed;
+    margin: 25vh 0 0 0.8vw;
+    width: 5vw;
+  }
+  .b_p{
+    position: fixed;
+    margin: 25vh 0 0 -30vw;
+    width: 30vw;
+  }
+  .b_animation{
+    position: fixed;
+    margin: 25vh 0 0 1vw;
+    width: 30vw;
+    animation-name: b_p;
+    animation-duration: 1s;
+  }
+  .b_animation_2{
+    position: fixed;
+    margin: 25vh 0 0 -30vw;
+    width: 30vw;
+    animation-name: b_p_2;
+    animation-duration: 1s;
+  }
+  @keyframes b_p {
+    0%{
+      margin-left: -30vw;
+    }
+    100%{
+      margin-left: 1vw;
+    }
+  }
+  @keyframes b_p_2 {
+    0%{
+      margin-left: 1vw;
+    }
+    100%{
+      margin-left: -30vw;
+    }
+  }
+  .b_p_p{
+    margin: 3.2vw 0vw 0 0vw;
+    text-align: right;
+    padding:0.05vw 1vw 0.05vw 0;
+    font-size: 2vw;
+    color:  rgb(255,255,187);
+    background-color:  rgb(129,81,26);
+    border-radius: 5vw;
+    font-family:Microsoft JhengHei;
+  }
+  .b{
+    width: 5vw;
+    float: left;
+    margin: 1vw 0 0 0;
+  }
+   .b_2{
+     width: 6.5vw;
+     float: left;
+     margin: 1vw 0 0 -0.25vw;;
+   }
+  .shadow{
+    height: 30.3vw;
+    width: 37vw;
+    position: absolute;
+    opacity: 0.5;
+    margin:10vw 0 0 0vw;
+  }
+  .shadow_d{
+    display: none;
+  }
+  .shadow_d_2{
+    display: none;
+  }
+  .shadow_2{
+    position: absolute;
+    height: 30.3vw;
+    width: 37vw;
+    opacity: 0.5;
+    margin: 50.3vw 0 0 3.55vw;
+    transform: rotate(0deg);
+  }
+  .img_look{
+    width: 100vw;
+    margin: 0;
+  }
+  .position{
+    position: absolute;
+    width: 100vw;
+  }
+  ul{
+  	margin:0;
+  	padding: 0;
+    float: right;
+    width: 20.5vw;
+  }
+  li{
+  	list-style: none;
+    float: left;
+    margin-top: 2vw;
+  }
+  .img_user{
+    width: 4.5vw;
+    margin-right: 2vw;
+    margin-top: 0.3vw;
+  }
+  .img_chat{
+    width: 4.5vw;
+    margin-right: 2vw;
+    margin-top: 1vw;
+  }
+  .img_home{
+    width: 4.5vw;
+    margin-right: 2vw;
+  }
+  .head_img_ticket{
+    position: absolute;
+    width: 13vw;
+    margin: 17vw 0 0 77vw;
+    transform: rotate(20deg);
+  }
+  .head_img_ticket_a{
+    animation: ticket 2.5s infinite linear;
+  }
+  @keyframes ticket {
+    0%{
+    margin: 17vw 0 0 75vw;
+    transform: rotate(0deg);
+    }
+    25%{
+    margin: 17vw 0 0 80vw;
+    transform: rotate(20deg);
+    }
+    50%{
+    margin: 17vw 0 0 75vw;
+    transform: rotate(0deg);
+    }
+    75%{
+    margin: 17vw 0 0 70vw;
+    transform: rotate(-20deg);
+    }
+    100%{
+    margin: 17vw 0 0 75vw;
+    transform: rotate(0deg);
+    }
+  }
+  .img_down{
+    width: 27vw;
+    position: fixed;
+    margin: 82vh 0 0 35.5vw;
+    z-index: 9;
+  }
+  .img_arrow{
+    position: fixed;
+    width: 5vw;
+    margin: 79vh 0 0 57vw;
+    z-index: 10;
+  }
+  .img_time{
+    float: left;
+    padding: 10vw 0 0 3.7vw;
+    width: 54.8vw;
+  }
+  .p_time{
+    cursor: default;
+    float: right;
+    margin: 9.5vw 7vw 0 0;
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+    width: 30vw;
+  }
+  .p_time_up{
+    margin-top: 1.5vw;
+    font-size: 2vw;
+  }
+  .p_time_p{
+    margin:1vw 0 0 0;
+  }
+  .p_time_r{
+    float: right;
+  }
+  .p_time_2{
+    margin-left: 4vw;
+  }
+  .p_time_3{
+    margin-left: 15vw;
+  }
+  .p_time_top{
+    padding-top: 1.5vw;
+  }
+  .p_time_down{
+    margin: 0vw 0 0 0vw;
+    font-size: 1.5vw;
+  }
+  .img_where{
+    padding: 10vw 3.7vw 0vw 0;
+    width: 54.8vw;
+    height: 30.3vw;
+    float: right;
+  }
+  .p_where{
+    position: absolute;
+    width: 28vw;
+    cursor: default;
+    float: left;
+    margin: 57vw 0 0 8vw;
+    font-size: 2vw;
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+  }
+  .p_where_0{
+    display: none;
+  }
+  .p_where_p{
+    margin: 1vw 0 0 0;
+  }
+  .p_where_r{
+    color: black;
+    text-align: center;
+    margin: 0vw 0 0 4vw;
+    padding: 2px;
+    border: 3px solid black;
+    border-radius : 10px;
+  }
+  .where_color{
+    color: black;
+    text-align: center;
+    margin: 0vw 0 0 4vw;
+    padding: 2px;
+    border: 3px solid black;
+    border-radius : 10px;
+    background-color: rgb(255,255,187);
+  }
+  .p_where_2{
+    text-align: center;
+    margin-top: 1vw;
+  }
+  .p_where_3{
+    margin-right: 4vw;
+  }
+  .go{
+    position: fixed;
+    left: 65vw;
+  }
+  .history{
+    margin-bottom:5vw;
+  }
+  .history_title{
+    margin: 0;
+    cursor: default;
+    padding: 9vw 0 3vw 0;
+    text-align: center;
+    color: rgb(129,81,26);
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+    font-size: 3.8vw;
+  }
+  .history_img{
+    padding-top: 5.8vw;
+  }
+  .h_position{
+    position: absolute;
+  }
+  .h_img{
+    width: 10vw;
+    margin-bottom: 9.8vw;
+  }
+  .h_img_l{
+    margin-left: 7vw;
+  }
+  .h_img_r{
+    margin-left: 81vw;
+  }
+  .h_p{
+    height: 4vw;
+  }
+  .h_p_l{
+    margin: 4vw 0 0 17vw;
+  }
+  .h_p_r{
+    margin: 4vw 0 0 2vw;
+  }
+  .map{
+    margin-left: 3.7vw;
+    width: 91.5vw;
+  }
+  .img_ticket{
+    margin-left: 3.7vw;
+    margin-top: 10vw;
+    width: 30vw;
+    margin-bottom: 10vw;
+  }
+  .img_ticket2{
+    display: none;
+  }
+  .p_ticket{
+    position: absolute;
+    z-index: 1;
+    margin-left: 33.7vw;
+    padding-top: 10vw;
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+  }
+  .p_ticket_2{
+    display: none;
+  }
+  .big_ticket{
+    margin: 7vw 0 0 5vw;
+    font-size:3vw;
+  }
+  .m_ticket{
+    margin: 1vw 0 0 8vw;
+    font-size:2vw;
+  }
+  .m_ticket_r{
+    margin-left: 12vw;
+  }
+  .s_ticket{
+    margin: 2vw 0 0 5vw;
+    font-size:1.8vw;
+  }
+  .go_ticket{
+    font-size:3vw;
+    margin: 1.5vw 0 0 35vw;
+    padding: 0.6vw 4.8vw;
+    background-color:  rgb(129,81,26);
+    color:  rgb(255,255,187);
+    border-radius : 10px;
+  }
+  .go_ticket:hover{
+    background-color:  rgb(255,255,187);
+    color:  rgb(129,81,26);
+  }
+  .shadow_3{
+    position: absolute;
+    margin: 10vw 0 0 33.71vw;
+    height: 51.35vw;
+    width: 61.5vw;
+    opacity: 0.5;
+  }
+  footer{
+    width: 100vw;
+    height: 10vw;
+    background-color: rgb(129,81,26);
+  }
+  footer img{
+    float: right;
+    width: 5.5vw;
+    margin-top: 2.5vw;
+    margin-right: 3vw;
+  }
+  .op0{
+    opacity: 0;
+  }
+  .op1{
+    opacity: 1;
+  }
+  .display{
+    display: none;
+  }
+  .block{
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px){
+  .myMOUSE {
+      cursor:pointer;
+  }
+  .clear{
+    clear: both;
+  }
+  html{
+    background-image: url(../mockup等/吉卜力網站視覺圖.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-color: rgb(135,175,76);
+  }
+  body{
+    margin: 0;
+    background-color: rgb(135,175,76);
+  }
+  header{
+    margin: 0;
+    width: 100vw;
+  }
+  .gsc-control-cse {
+   position: absolute;
+   padding: 0em!important;
+   width: 40vw!important;
+   height: auto;
+   border: 0px!important;
+   padding: 0px!important;
+   background-color:rgba(0,0,0,0)!important;
+   margin-left: 2vw!important;
+   margin-top: 2vw!important;
+  }
+  .bs{
+    position: fixed;
+    margin: 25vh 0 0 0.8vw;
+    width: 5vw;
+  }
+  .b_p{
+    position: fixed;
+    margin: 25vh 0 0 -30vw;
+    width: 30vw;
+  }
+  .b_animation{
+    position: fixed;
+    margin: 25vh 0 0 1vw;
+    width: 30vw;
+    animation-name: b_p;
+    animation-duration: 1s;
+  }
+  .b_animation_2{
+    position: fixed;
+    margin: 25vh 0 0 -30vw;
+    width: 30vw;
+    animation-name: b_p_2;
+    animation-duration: 1s;
+  }
+  @keyframes b_p {
+    0%{
+      margin-left: -30vw;
+    }
+    100%{
+      margin-left: 1vw;
+    }
+  }
+  @keyframes b_p_2 {
+    0%{
+      margin-left: 1vw;
+    }
+    100%{
+      margin-left: -30vw;
+    }
+  }
+  .b_p_p{
+    margin: 3.2vw 0vw 0 0vw;
+    text-align: right;
+    padding:0.05vw 1vw 0.05vw 0;
+    font-size: 2vw;
+    color:  rgb(255,255,187);
+    background-color:  rgb(129,81,26);
+    border-radius: 5vw;
+    font-family:Microsoft JhengHei;
+  }
+  .b{
+    width: 5vw;
+    float: left;
+    margin: 1vw 0 0 0;
+  }
+   .b_2{
+     width: 6.5vw;
+     float: left;
+     margin: 1vw 0 0 -0.25vw;;
+   }
+  .img_look{
+    width: 100vw;
+    margin: 0;
+  }
+  .position{
+    position: absolute;
+    width: 100vw;
+  }
+  ul{
+  	margin:0;
+  	padding: 0;
+    float: right;
+    width: 20.5vw;
+  }
+  li{
+  	list-style: none;
+    float: left;
+    margin-top: 2vw;
+  }
+  .img_user{
+    width: 4.5vw;
+    margin-right: 2vw;
+    margin-top: 0.3vw;
+  }
+  .img_chat{
+    width: 4.5vw;
+    margin-right: 2vw;
+    margin-top: 1vw;
+  }
+  .img_home{
+    width: 4.5vw;
+    margin-right: 2vw;
+  }
+  .head_img_ticket{
+    position: absolute;
+    width: 13vw;
+    margin: 17vw 0 0 77vw;
+    transform: rotate(20deg);
+  }
+  .head_img_ticket_a{
+    animation: ticket 2.5s infinite linear;
+  }
+  @keyframes ticket {
+    0%{
+    margin: 17vw 0 0 75vw;
+    transform: rotate(0deg);
+    }
+    25%{
+    margin: 17vw 0 0 80vw;
+    transform: rotate(20deg);
+    }
+    50%{
+    margin: 17vw 0 0 75vw;
+    transform: rotate(0deg);
+    }
+    75%{
+    margin: 17vw 0 0 70vw;
+    transform: rotate(-20deg);
+    }
+    100%{
+    margin: 17vw 0 0 75vw;
+    transform: rotate(0deg);
+    }
+  }
+  .img_down{
+    width: 27vw;
+    position: fixed;
+    margin: 82vh 0 0 35.5vw;
+    z-index: 9;
+  }
+  .img_arrow{
+    position: fixed;
+    width: 5vw;
+    margin: 79vh 0 0 57vw;
+    z-index: 10;
+  }
+  .img_time{
+    float:none;
+    padding: 10vw 0 0 5vw;
+    width: 88vw;
+  }
+  .shadow_2{
+   position: absolute;
+   height: 88vw;
+   width: 43vw;
+   opacity: 0.5;
+   margin: 36.2vw 0 0 27.5vw;
+   transform: rotate(270deg);
+  }
+  .p_time{
+    cursor: default;
+    float: none;
+    margin: 0vw 0vw 2.8vw 25vw;
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+    width: 45vw;
+  }
+  .p_time_up{
+    margin-top: 0vw;
+    font-size: 3vw;
+  }
+  .p_time_p{
+    margin:1vw 0 0 0;
+  }
+  .p_time_r{
+    float: right;
+  }
+  .p_time_2{
+    margin-left: 4vw;
+  }
+  .p_time_3{
+    margin-left: 15vw;
+  }
+  .p_time_top{
+    padding-top: 1.5vw;
+  }
+  .p_time_down{
+    margin: 0vw 0 0vw 0vw;
+    font-size: 2vw;
+  }
+  .img_where{
+    height: 49vw;
+    float: none;
+    padding: 10vw 0 0 5vw;
+    width: 88vw;
+  }
+  .shadow{
+  	display: none;
+   height: 88vw;
+   width: 20vw;
+   position: absolute;
+   opacity: 0.5;
+   margin:0vw 0vw 0vw 0vw;
+   transform: rotate(0deg);
+  }
+  .shadow_d{
+    display: block;
+   height: 22vw;
+   width: 88vw;
+   position: absolute;
+   opacity: 0.5;
+   margin:59vw 0vw 0vw 5vw;
+   transform: rotate(0deg);
+  }
+  .p_where{
+    position: absolute;
+    width: 60vw;
+    cursor: default;
+    float: left;
+    margin: 60vw 0 0 17vw;
+    font-size: 3vw;
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+  	z-index: 1;
+  }
+  .p_where_0{
+    display: block;
+  	opacity: 0;
+    width: 60vw;
+    cursor: default;
+    float: left;
+    margin: 4.6vw 0 0 17vw;
+    font-size: 3vw;
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+  	z-index: 1;
+  }
+  .p_where_p{
+    margin: 1vw 0 0 0;
+  }
+  .p_where_r{
+    color: black;
+    text-align: center;
+    margin: 0vw 0 0 4vw;
+    padding: 2px;
+    border: 3px solid black;
+    border-radius : 10px;
+  }
+  .where_color{
+    color: black;
+    text-align: center;
+    margin: 0vw 0 0 4vw;
+    padding: 2px;
+    border: 3px solid black;
+    border-radius : 10px;
+    background-color: rgb(255,255,187);
+  }
+  .p_where_2{
+    text-align: center;
+    margin-top: 1vw;
+  }
+  .p_where_3{
+    margin-right: 4vw;
+  }
+  .go{
+    position: fixed;
+    left: 65vw;
+  	display: none;
+  }
+  .history{
+    margin-bottom:5vw;
+  }
+  .history_title{
+    margin: 0;
+    cursor: default;
+    padding: 10vw 0 3vw 0;
+    text-align: center;
+    color: rgb(129,81,26);
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+    font-size: 4vw;
+  }
+  .history_img{
+    padding-top: 5.8vw;
+  }
+  .h_position{
+    position: absolute;
+  }
+  .h_img{
+    width: 10vw;
+    margin-bottom: 9.8vw;
+  }
+  .h_img_l{
+    margin-left: 7vw;
+  }
+  .h_img_r{
+    margin-left: 81vw;
+  }
+  .h_p{
+    height: 4vw;
+  }
+  .h_p_l{
+    margin: 4vw 0 0 17vw;
+  }
+  .h_p_r{
+    margin: 4vw 0 0 2vw;
+  }
+  .map{
+    margin-left: 5vw;
+    width: 88vw;
+  }
+  .img_ticket{
+  	display: none;
+    margin-left: 3.7vw;
+    margin-top: 10vw;
+    width: 30vw;
+  }
+  .img_ticket2{
+    display: block;
+    margin-left: 5vw;
+    margin-top: 10vw;
+  	width: 88vw;
+  }
+  .p_ticket{
+    position: absolute;
+    z-index: 1;
+    margin-left: 13vw;
+    padding-top: 35vw;
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+  }
+  .p_ticket_2{
+    display: block;
+  	opacity: 0;
+    margin-left: 5vw;
+    margin-top: 11vw;
+    font-family:Microsoft JhengHei;
+    font-weight:bold;
+    margin-bottom: 10vw;
+  }
+  .big_ticket{
+    margin: 7vw 0 0 5vw;
+    font-size:3.5vw;
+  }
+  .m_ticket{
+    margin: 1vw 0 0 8vw;
+    font-size:2.5vw;
+  }
+  .m_ticket_r{
+    margin-left: 12vw;
+  }
+  .s_ticket{
+    margin: 2vw 0 0 5vw;
+    font-size:2vw;
+  }
+  .go_ticket{
+    font-size:3vw;
+    margin: 1.5vw 0 0 45vw;
+    padding: 0.6vw 4.8vw;
+    background-color:  rgb(129,81,26);
+    color:  rgb(255,255,187);
+    border-radius : 10px;
+  }
+  .go_ticket:hover{
+    background-color:  rgb(255,255,187);
+    color:  rgb(129,81,26);
+  }
+  .shadow_d_2{
+    display: block;
+    position: absolute;
+    margin: 37.2vw 0 0 5vw;
+    height: 51.35vw;
+    width: 88vw;
+    opacity: 0.5;
+  }
+  .shadow_3{
+  	display: none;;
+    position: absolute;
+    margin: 10vw 0 0 5vw;
+    height: 51.35vw;
+    width: 61.5vw;
+    opacity: 0.5;
+  }
+  footer{
+    width: 100vw;
+    height: 10vw;
+    background-color: rgb(129,81,26);
+  }
+  footer img{
+    float: right;
+    width: 5.5vw;
+    margin-top: 2.5vw;
+    margin-right: 3vw;
+  }
+  .op0{
+    opacity: 0;
+  }
+  .op1{
+    opacity: 1;
+  }
+  .display{
+    display: none;
+  }
+  .block{
+    display: block;
+  }
+}
+@media only screen and (min-width: 1280px){
 .myMOUSE {
     cursor:pointer;
 }
@@ -8,7 +832,6 @@ html{
   background-image: url(../mockup等/吉卜力網站視覺圖.png);
   background-repeat:no-repeat;
   background-size:100%;
-  height: 6000px;
 }
 body{
   margin: 0;
@@ -18,6 +841,90 @@ header{
   margin: 0;
   width: 100vw;
 }
+.map_n{
+  width: 100vw;
+  position: absolute;
+  height: 20vw;
+  margin-top: 40vw;
+}
+.t_n{
+  width: 100vw;
+  position: absolute;
+  height: 20vw;
+  margin-top: 40vw;
+}
+.gsc-control-cse {
+ position: absolute;
+ padding: 0em!important;
+ width: 40vw!important;
+ height: auto;
+ border: 0px!important;
+ padding: 0px!important;
+ background-color:rgba(0,0,0,0)!important;
+ margin-left: 2vw!important;
+ margin-top: 2vw!important;
+}
+.bs{
+  position: fixed;
+  margin: 25vh 0 0 0.8vw;
+  width: 3vw;
+  z-index: 2;
+}
+.b_p{
+  position: fixed;
+  margin: 24.8vh 0 0 -10vw;
+  width: 9.8vw;
+}
+.b_animation{
+  position: fixed;
+  margin: 24.8vh 0 0 1vw;
+  width: 9.8vw;
+  animation-name: b_p;
+  animation-duration: 1s;
+}
+.b_animation_2{
+  position: fixed;
+  margin: 24.8vh 0 0 -10vw;
+  width: 9.8vw;
+  animation-name: b_p_2;
+  animation-duration: 1s;
+}
+@keyframes b_p {
+  0%{
+    margin-left: -10vw;
+  }
+  100%{
+    margin-left: 1vw;
+  }
+}
+@keyframes b_p_2 {
+  0%{
+    margin-left: 1vw;
+  }
+  100%{
+    margin-left: -10vw;
+  }
+}
+.b_p_p{
+  margin: 1.55vw 0vw 0 0vw;
+  text-align: right;
+  padding:0.05vw 1vw 0.05vw 0;
+  font-size: 1vw;
+  color:  rgb(255,255,187);
+  background-color:  rgb(129,81,26);
+  border-radius: 5vw;
+  font-family:Microsoft JhengHei;
+}
+.b{
+  width: 2vw;
+  float: left;
+  margin: 1vw 0 0 0;
+}
+ .b_2{
+   width: 2.5vw;
+   float: left;
+   margin: 1vw 0 0 -0.25vw;;
+ }
 .shadow{
   height: 30.3vw;
   width: 37vw;
@@ -25,12 +932,19 @@ header{
   opacity: 0.5;
   margin:10vw 0 0 0vw;
 }
+.shadow_d{
+  display: none;
+}
+.shadow_d_2{
+  display: none;
+}
 .shadow_2{
   position: absolute;
   height: 30.3vw;
   width: 37vw;
   opacity: 0.5;
   margin: 50.3vw 0 0 3.55vw;
+  transform: rotate(0deg);
 }
 .img_look{
   width: 100vw;
@@ -44,12 +958,17 @@ ul{
 	margin:0;
 	padding: 0;
   float: right;
-  width: 14vw;
+  width: 20.5vw;
 }
 li{
 	list-style: none;
   float: left;
   margin-top: 2vw;
+}
+.img_user{
+  width: 4.5vw;
+  margin-right: 2vw;
+  margin-top: 0.3vw;
 }
 .img_chat{
   width: 4.5vw;
@@ -59,6 +978,37 @@ li{
 .img_home{
   width: 4.5vw;
   margin-right: 2vw;
+}
+.head_img_ticket{
+  position: absolute;
+  width: 13vw;
+  margin: 17vw 0 0 77vw;
+  transform: rotate(20deg);
+}
+.head_img_ticket_a{
+  animation: ticket 2.5s infinite linear;
+}
+@keyframes ticket {
+  0%{
+  margin: 17vw 0 0 75vw;
+  transform: rotate(0deg);
+  }
+  25%{
+  margin: 17vw 0 0 80vw;
+  transform: rotate(20deg);
+  }
+  50%{
+  margin: 17vw 0 0 75vw;
+  transform: rotate(0deg);
+  }
+  75%{
+  margin: 17vw 0 0 70vw;
+  transform: rotate(-20deg);
+  }
+  100%{
+  margin: 17vw 0 0 75vw;
+  transform: rotate(0deg);
+  }
 }
 .img_down{
   width: 27vw;
@@ -82,6 +1032,7 @@ li{
   float: right;
   margin: 9.5vw 7vw 0 0;
   font-family:Microsoft JhengHei;
+  font-weight:bold;
   width: 30vw;
 }
 .p_time_up{
@@ -121,6 +1072,10 @@ li{
   margin: 57vw 0 0 8vw;
   font-size: 2vw;
   font-family:Microsoft JhengHei;
+  font-weight:bold;
+}
+.p_where_0{
+  display: none;
 }
 .p_where_p{
   margin: 1vw 0 0 0;
@@ -154,7 +1109,7 @@ li{
   left: 65vw;
 }
 .history{
-  margin-bottom: 20vw;
+  margin-bottom:5vw;
 }
 .history_title{
   margin: 0;
@@ -163,10 +1118,11 @@ li{
   text-align: center;
   color: rgb(129,81,26);
   font-family:Microsoft JhengHei;
+  font-weight:bold;
   font-size: 3.8vw;
 }
 .history_img{
-  padding-top: 12.8vw;
+  padding-top: 5.8vw;
 }
 .h_position{
   position: absolute;
@@ -189,7 +1145,66 @@ li{
 }
 .h_p_r{
   margin: 2vw 0 0 16vw;
-}footer{
+}
+.map{
+  margin-left: 3.7vw;
+  width: 91.5vw;
+}
+.img_ticket{
+  margin-left: 3.7vw;
+  margin-top: 10vw;
+  width: 30vw;
+  margin-bottom: 10vw;
+}
+.img_ticket2{
+  display: none;
+}
+.p_ticket{
+  position: absolute;
+  z-index: 1;
+  margin-left: 33.7vw;
+  padding-top: 10vw;
+  font-family:Microsoft JhengHei;
+  font-weight:bold;
+}
+.p_ticket_2{
+  display: none;
+}
+.big_ticket{
+  margin: 7vw 0 0 5vw;
+  font-size:3vw;
+}
+.m_ticket{
+  margin: 1vw 0 0 8vw;
+  font-size:2vw;
+}
+.m_ticket_r{
+  margin-left: 12vw;
+}
+.s_ticket{
+  margin: 2vw 0 0 5vw;
+  font-size:1.8vw;
+}
+.go_ticket{
+  font-size:3vw;
+  margin: 1.5vw 0 0 35vw;
+  padding: 0.6vw 4.8vw;
+  background-color:  rgb(129,81,26);
+  color:  rgb(255,255,187);
+  border-radius : 10px;
+}
+.go_ticket:hover{
+  background-color:  rgb(255,255,187);
+  color:  rgb(129,81,26);
+}
+.shadow_3{
+  position: absolute;
+  margin: 10vw 0 0 33.71vw;
+  height: 51.35vw;
+  width: 61.5vw;
+  opacity: 0.5;
+}
+footer{
   width: 100vw;
   height: 10vw;
   background-color: rgb(129,81,26);
@@ -200,9 +1215,16 @@ footer img{
   margin-top: 2.5vw;
   margin-right: 3vw;
 }
+.op0{
+  opacity: 0;
+}
+.op1{
+  opacity: 1;
+}
 .display{
   display: none;
 }
 .block{
   display: block;
+}
 }
